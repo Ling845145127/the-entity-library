@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技能拉霸 - 惡靈書庫</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">惡靈書庫</a>
+        <nav>
+            <a href="index.html">首頁</a>
+            <a href="killers.html">殺手圖鑑</a>
+            <a href="perks.html">技能百科</a>
+            <a href="roulette.html" class="active">技能拉霸</a>
+        </nav>
+    </header>
+
+    <main class="section">
+        <h1 class="section-title">技能拉霸</h1>
+        <p class="section-subtitle">不知道帶什麼？隨機抽四個技能，抽到喜歡的可以鎖定再重抽</p>
+
+        <div class="role-tabs roulette-tabs" role="tablist">
+            <button class="role-tab active" data-role="killer" role="tab">殺手技能</button>
+            <button class="role-tab" data-role="survivor" role="tab">人類技能</button>
+        </div>
+
+        <!-- 抽取範圍：由 roulette.js 依資料產生 -->
+        <div class="pool-filter">
+            <span class="filter-label">只抽</span>
+            <div class="tag-list tag-filter" id="pool-tags"></div>
+        </div>
+        <p class="muted pool-hint" id="pool-hint"></p>
+
+        <!-- 四個拉霸格 -->
+        <div class="slot-row" id="slot-row"></div>
+
+        <div class="roll-area">
+            <button class="btn btn-primary btn-roll" id="roll-btn">🎲 開抽</button>
+            <p class="muted" id="roll-msg"></p>
+        </div>
+
+        <!-- 搭配提示 -->
+        <section class="combo-section" id="combo-section">
+            <h2 class="combo-title">這組的搭配</h2>
+            <div class="combo-list" id="combo-list"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span class="logo">惡靈書庫</span>
+        <p>本站為課堂作業，非官方網站。遊戲名稱與圖片版權屬 Behaviour Interactive 所有。</p>
+    </footer>
+
+    <script src="assets/js/perk-common.js"></script>
+    <script src="assets/js/roulette.js"></script>
+</body>
+</html>

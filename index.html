@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惡靈書庫 - DBD 技能百科</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site.js"></script>
+</head>
+<body>
+    <!-- 頂部導覽列（每一頁都用同一份） -->
+    <header class="navbar">
+        <a href="index.html" class="logo">惡靈書庫</a>
+        <nav>
+            <a href="index.html" class="active">首頁</a>
+            <a href="killers.html">殺手圖鑑</a>
+            <a href="perks.html">技能百科</a>
+            <a href="roulette.html">技能拉霸</a>
+        </nav>
+    </header>
+
+    <!-- 主視覺：進入迷霧 -->
+    <section class="hero-section">
+        <h1>進入迷霧</h1>
+        <p class="hero-tagline">由玩家整理的 Dead by Daylight 技能百科：每個技能都有分類和推薦搭配</p>
+        <div class="hero-content">
+            <a href="survivors.html" class="camp-card">
+                <img src="assets/images/icon/survivor.webp" alt="" class="camp-icon">
+                <span>人類陣營<span class="camp-note">整理中</span></span>
+            </a>
+            <a href="killers.html" class="camp-card">
+                <img src="assets/images/icon/killer.webp" alt="" class="camp-icon">
+                <span>殺手陣營<span class="camp-note">殺手圖鑑</span></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- 新手入門 -->
+    <section class="section guide-section">
+        <h2 class="section-title">新手入門</h2>
+        <p class="section-subtitle">第一次接觸 DBD？照著這四步認識這個遊戲</p>
+
+        <div class="guide-steps">
+            <!-- 1. 遊戲規則 -->
+            <article class="guide-card">
+                <div class="guide-visual">
+                    <img src="assets/images/icon/killer.webp" alt="殺手" class="camp-icon">
+                    <span class="vs-text">1 VS 4</span>
+                    <img src="assets/images/icon/survivor.webp" alt="人類" class="camp-icon">
+                </div>
+                <h3>遊戲規則</h3>
+                <p>一場比賽由 1 位殺手對上 4 位人類。人類要修好 5 台發電機、打開大門逃離；殺手則要擊倒人類，把他們掛上鉤子獻祭給惡靈。</p>
+            </article>
+
+            <!-- 2. 技能是什麼 -->
+            <article class="guide-card">
+                <div class="guide-visual">
+                    <div class="tag-list">
+                        <span class="tag">控機</span>
+                        <span class="tag">追逐</span>
+                        <span class="tag">終局</span>
+                        <span class="tag">減益</span>
+                        <span class="tag">增益</span>
+                    </div>
+                </div>
+                <h3>技能是什麼</h3>
+                <p>每場比賽最多帶 4 個技能。每位角色有 3 個專屬的「傳承技能」，培養後其他角色也能使用。本站依用途替每個技能貼上標籤，方便你找到需要的技能。</p>
+                <a href="perks.html" class="btn btn-ghost">前往技能百科</a>
+            </article>
+
+            <!-- 3. 怎麼挑殺手 -->
+            <article class="guide-card">
+                <div class="guide-visual">
+                    <a href="killers.html#wraith" title="幽靈殺手"><img src="assets/images/chara/killers/Wraith.png" alt="幽靈殺手" class="mini-killer"></a>
+                    <a href="killers.html#trapper" title="陷阱殺手"><img src="assets/images/chara/killers/Trapper.png" alt="陷阱殺手" class="mini-killer"></a>
+                    <a href="killers.html#legion" title="軍團"><img src="assets/images/chara/killers/Legion.png" alt="軍團" class="mini-killer"></a>
+                </div>
+                <h3>怎麼挑殺手</h3>
+                <p>每位殺手都有一張雷達圖，從追逐、巡場、控場、情報、隱蔽五個面向評分。新手建議從操作直覺的幽靈殺手、陷阱殺手、軍團開始。</p>
+                <a href="killers.html" class="btn btn-ghost">前往殺手圖鑑</a>
+            </article>
+
+            <!-- 4. 萬用配裝 -->
+            <article class="guide-card">
+                <div class="guide-visual">
+                    <!-- 由 main.js 依 beginnerBuildIds 填入 -->
+                    <div class="perk-grid perk-grid--sm" id="beginner-build"></div>
+                </div>
+                <h3>新手萬用配裝</h3>
+                <p>不挑殺手、帶了就有用的四個技能：兩個拖慢修機、一個找人、一個讓人類難以治療。把滑鼠移到技能上可以看說明。</p>
+                <a href="roulette.html" class="btn btn-ghost">試試技能拉霸</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- 秘密聖所 -->
+    <section class="section shrine-section">
+        <h2 class="section-title">秘密聖所</h2>
+        <p class="section-subtitle">每週可用碎片直接購買的四個技能</p>
+        <!-- 由 main.js 依 shrinePerkIds 填入 -->
+        <div class="perk-grid" id="shrine-grid"></div>
+        <p class="countdown">距離下次刷新：<span id="shrine-countdown">--</span></p>
+    </section>
+
+    <!-- 右下角：技能拉霸 -->
+    <a href="roulette.html" class="btn btn-primary fab-roulette">🎲 技能拉霸</a>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <span class="logo">惡靈書庫</span>
+        <p>本站為課堂作業，非官方網站。遊戲名稱與圖片版權屬 Behaviour Interactive 所有。</p>
+    </footer>
+
+    <!-- 全站共用的技能提示框（預設隱藏） -->
+    <div id="js-tooltip" class="js-tooltip">
+        <h4 id="tt-name"></h4>
+        <p id="tt-owner" class="perk-owner"></p>
+        <div id="tt-tags" class="tag-list"></div>
+        <p id="tt-desc" class="perk-desc"></p>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

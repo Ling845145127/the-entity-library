@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技能百科 - 惡靈書庫</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">惡靈書庫</a>
+        <nav>
+            <a href="index.html">首頁</a>
+            <a href="killers.html">殺手圖鑑</a>
+            <a href="perks.html" class="active">技能百科</a>
+            <a href="roulette.html">技能拉霸</a>
+        </nav>
+    </header>
+
+    <main class="section">
+        <h1 class="section-title">技能百科</h1>
+        <p class="section-subtitle">依用途分類每個技能，點開技能可以看推薦搭配</p>
+
+        <!-- 篩選工具列 -->
+        <div class="perk-toolbar">
+            <div class="role-tabs" role="tablist">
+                <button class="role-tab active" data-role="killer" role="tab">殺手技能</button>
+                <button class="role-tab" data-role="survivor" role="tab">人類技能</button>
+            </div>
+
+            <input type="search" id="perk-search" class="search-input" placeholder="搜尋技能名稱、別稱、英文名、角色或效果…">
+
+            <!-- 標籤按鈕由 perks.js 依資料自動產生，依分組排成幾排 -->
+            <div class="filter-groups" id="tag-filter"></div>
+
+            <div class="filter-row">
+                <p class="filter-hint muted" id="filter-hint"></p>
+                <button class="btn btn-ghost btn-sm" id="clear-filter">清除篩選</button>
+            </div>
+
+            <details class="tag-legend">
+                <summary>這些標籤是什麼意思？</summary>
+                <div class="tag-legend-body" id="tag-legend-body"></div>
+            </details>
+        </div>
+
+        <p class="role-note muted" id="role-note"></p>
+
+        <!-- 技能卡片清單 -->
+        <div class="perk-list" id="perk-list"></div>
+        <p class="empty-state muted" id="empty-state">找不到符合條件的技能，試試別的關鍵字或少選幾個標籤。</p>
+    </main>
+
+    <!-- 技能詳細視窗 -->
+    <div id="perk-modal" class="modal-overlay">
+        <div class="modal-content perk-modal">
+            <span class="close-btn" id="perk-modal-close">&times;</span>
+
+            <div class="perk-detail-head">
+                <div class="perk-image-wrapper">
+                    <img src="assets/images/perks/bg.png" alt="" class="diamond-bg">
+                    <img id="pd-image" src="" alt="" class="perk-icon">
+                </div>
+                <div>
+                    <h2 id="pd-name"></h2>
+                    <div id="pd-aliases"></div>
+                    <p class="muted" id="pd-name-en"></p>
+                    <p id="pd-owner"></p>
+                    <div class="tag-list" id="pd-tags"></div>
+                    <div class="tag-list status-row" id="pd-status"></div>
+                </div>
+            </div>
+
+            <p class="perk-detail-desc" id="pd-desc"></p>
+
+            <h3 class="synergy-title">推薦搭配</h3>
+            <div class="synergy-list" id="pd-synergies"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <span class="logo">惡靈書庫</span>
+        <p>本站為課堂作業，非官方網站。遊戲名稱與圖片版權屬 Behaviour Interactive 所有。</p>
+    </footer>
+
+    <script src="assets/js/perk-common.js"></script>
+    <script src="assets/js/perks.js"></script>
+</body>
+</html>

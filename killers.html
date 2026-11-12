@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>殺手圖鑑 - 惡靈書庫</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">惡靈書庫</a>
+        <nav>
+            <a href="index.html">首頁</a>
+            <a href="killers.html" class="active">殺手圖鑑</a>
+            <a href="perks.html">技能百科</a>
+            <a href="roulette.html">技能拉霸</a>
+        </nav>
+    </header>
+
+    <main class="section killers-section">
+        <h1 class="section-title">殺手圖鑑</h1>
+        <p class="section-subtitle">點選殺手查看能力、基本數值、能力分析圖和三個傳承技能</p>
+        <!-- 殺手頭像網格：由 killers.js 依 killers.json 產生 -->
+        <div id="killers-grid" class="killers-grid"></div>
+    </main>
+
+    <!-- 殺手詳細視窗 -->
+    <div id="killer-modal" class="modal-overlay">
+        <div class="modal-content large-modal">
+            <span class="close-btn" id="close-modal">&times;</span>
+
+            <div class="modal-top-section">
+                <!-- 左：立繪、傳承技能、基本數值 -->
+                <div class="modal-left-col">
+                    <div class="portrait-group">
+                        <!-- 立繪：深色卡片底圖 + 角色圖（和圖鑑網格同風格，但不加紅色塗層） -->
+                        <div class="m-portrait">
+                            <img src="assets/images/chara/bg.png" alt="" class="m-portrait-bg">
+                            <img id="m-portrait" src="" alt="" class="m-portrait-img">
+                        </div>
+                        <div class="m-perks-col" id="m-perks-container"></div>
+                    </div>
+
+                    <div class="m-base-stats">
+                        <div class="stat-item" title="移動速度">
+                            <img src="assets/images/icon/movementSpeed.webp" alt="移動速度" class="stat-icon">
+                            <span class="muted">移速</span><span id="m-speed"></span>
+                        </div>
+                        <div class="stat-item" title="恐懼範圍">
+                            <img src="assets/images/icon/terrorRadius.webp" alt="恐懼範圍" class="stat-icon">
+                            <span class="muted">恐懼範圍</span><span id="m-terror"></span>
+                        </div>
+                        <div class="stat-item" title="體型">
+                            <img src="assets/images/icon/height.webp" alt="體型" class="stat-icon">
+                            <span class="muted">體型</span><span id="m-size"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右：名稱與雷達圖 -->
+                <div class="info-group">
+                    <div class="text-stats">
+                        <h2 id="m-name"></h2>
+                        <p class="muted" id="m-name-en"></p>
+                        <p class="muted" id="m-aliases"></p>
+                    </div>
+
+                    <div class="radar-section">
+                        <p class="radar-title">能力分析圖</p>
+                        <div class="radar-container">
+                            <canvas id="m-radar"></canvas>
+                            <div class="radar-empty muted" id="radar-empty">評分整理中</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="modal-divider">
+
+            <!-- 下：能力介紹 -->
+            <div class="power-section">
+                <div class="power-icon-box">
+                    <img id="m-power-icon" src="" alt="" class="power-icon">
+                </div>
+                <div class="power-text">
+                    <p class="muted power-label">能力</p>
+                    <h3 id="m-power-name"></h3>
+                    <p id="m-power-desc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <span class="logo">惡靈書庫</span>
+        <p>本站為課堂作業，非官方網站。遊戲名稱與圖片版權屬 Behaviour Interactive 所有。</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="assets/js/perk-common.js"></script>
+    <script src="assets/js/killers.js"></script>
+</body>
+</html>

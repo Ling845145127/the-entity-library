@@ -1,0 +1,2252 @@
+[
+    {
+        "id": "sprint-burst",
+        "name": "衝刺爆發",
+        "name_en": "Sprint Burst",
+        "aliases": [],
+        "role": "survivor",
+        "owner": "梅格·托馬斯",
+        "desc": "開始奔跑時，以正常跑步速度的 150% 進行衝刺，最多持續 3 秒。會造成 40 秒的疲勞狀態。",
+        "image": "assets/images/perks/survivors/Meg Thomas/Sprint Burst.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "dead-hard",
+        "name": "鋼筋鐵骨",
+        "name_en": "Dead Hard",
+        "aliases": [
+            "DH"
+        ],
+        "role": "survivor",
+        "owner": "大衛·金",
+        "desc": "受傷時可使用。奔跑時按下主動能力鍵獲得 0.5 秒的堅忍狀態。會造成 40 秒的疲勞狀態。",
+        "image": "assets/images/perks/survivors/David King/Dead Hard.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "haywire",
+        "name": "失控",
+        "name_en": "Haywire",
+        "aliases": [],
+        "role": "killer",
+        "owner": "機械玩偶 (Animatronic)",
+        "desc": "進度至少 80% 的出口大門會以 100% 的速度倒退。",
+        "image": "assets/images/perks/killers/Animatronic/Haywire.png",
+        "tags": [
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "help-wanted",
+        "name": "招聘",
+        "name_en": "Help Wanted",
+        "aliases": [],
+        "role": "killer",
+        "owner": "機械玩偶 (Animatronic)",
+        "desc": "破壞發電機時該發電機標記劣化。\n若人類完成任意劣化發電機時：\n殺手普通攻擊冷卻時間減少 90% ；\n未被修理的發電機以 150% 速度倒退 90 秒。",
+        "image": "assets/images/perks/killers/Animatronic/Help Wanted.png",
+        "tags": [
+            "劣化",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "phantom-fear",
+        "name": "幻影恐懼",
+        "name_en": "Phantom Fear",
+        "aliases": [],
+        "role": "killer",
+        "owner": "機械玩偶 (Animatronic)",
+        "desc": "每當殺手恐懼範圍內的人類看相你，對方會尖叫，隨後顯示氣場 2 秒。",
+        "image": "assets/images/perks/killers/Animatronic/Phantom Fear.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "grim-embrace",
+        "name": "陰森擁抱",
+        "name_en": "Grim Embrace",
+        "aliases": [],
+        "role": "killer",
+        "owner": "藝術家 (The Artist)",
+        "desc": "每當一名逃生者首次被勾住時，你獲得1枚代幣。\n在你距離鉤子至少 16 公尺時:\n1-3 枚代幣：惡靈會封鎖所有 發電機  10 秒\n4 枚代幣：封鎖所有發電機 40 秒，並向你揭示血祭品的氣場 6 秒。",
+        "image": "assets/images/perks/killers/Artist/Grim Embrace.png",
+        "tags": [
+            "控機",
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "pentimento",
+        "name": "厄咒：修飾痕",
+        "name_en": "Hex: Pentimento",
+        "aliases": [
+            "餘痕"
+        ],
+        "role": "killer",
+        "owner": "藝術家 (The Artist)",
+        "desc": "你可以看到被摧毀圖騰的氣場，並可對其互動將其復燃為厄咒：修飾痕的厄咒圖騰。\n圖騰重生後，人類滯留和修機速度減慢 20% ，每多一個重生圖騰額外增加  3% 。",
+        "image": "assets/images/perks/killers/Artist/Hex Pentimento.png",
+        "tags": [
+            "厄咒",
+            "反治療",
+            "反修機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "pain-resonance",
+        "name": "天災鉤：痛苦共鳴",
+        "name_en": "Scourge Hook: Pain Resonance",
+        "aliases": [
+            "鳥人鉤"
+        ],
+        "role": "killer",
+        "owner": "藝術家 (The Artist)",
+        "desc": "技能開局擁有 4 層代幣，每名逃生者首次被鉤在天災鉤上時，技能生效並失去 1 層代幣。\n當前最高修理進度的發電機爆炸，立即損失 20% 進度，並開始回退。\n修理該發電機的逃生者會尖叫，但不會暴露他們的位置。",
+        "image": "assets/images/perks/killers/Artist/Scourge Hook Pain Resonance.png",
+        "tags": [
+            "天災鉤",
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "dragons-grip",
+        "name": "巨龍之握",
+        "name_en": "Dragon's Grip",
+        "aliases": [
+            "龍爪"
+        ],
+        "role": "killer",
+        "owner": "枯魔 (The Blight)",
+        "desc": "每當你破壞一台發電機，在接下來 30秒 內，第一個修理該發電機的人類會：\n尖叫並暴露氣場 4秒 ；\n獲得破綻效果  60秒 。\n\nCD: 30秒",
+        "image": "assets/images/perks/killers/Blight/Dragon_s Grip.png",
+        "tags": [
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "blood-favor",
+        "name": "厄咒：鮮血贈禮",
+        "name_en": "Hex: Blood Favor",
+        "aliases": [
+            "封板"
+        ],
+        "role": "killer",
+        "owner": "枯魔 (The Blight)",
+        "desc": "人類被普通攻擊擊中時，附近的木板會被惡靈暫時封鎖，無法放下。",
+        "image": "assets/images/perks/killers/Blight/Hex Blood Favor.png",
+        "tags": [
+            "厄咒",
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "undying",
+        "name": "厄咒：不死",
+        "name_en": "Hex: Undying",
+        "aliases": [
+            "先死"
+        ],
+        "role": "killer",
+        "owner": "枯魔 (The Blight)",
+        "desc": "其他厄咒圖騰被淨化時，該厄咒的效果會轉移到這個圖騰上。人類靠近任何圖騰時，你會看到他們的氣場。",
+        "image": "assets/images/perks/killers/Blight/Hex Undying.png",
+        "tags": [
+            "厄咒",
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "bbq-and-chili",
+        "name": "人肉燒烤",
+        "name_en": "BBQ and Chili",
+        "aliases": [
+            "BBQ"
+        ],
+        "role": "killer",
+        "owner": "食人魔 (The Cannibal)",
+        "desc": "把人類掛上鉤子後，會短暫看見遠處其他人類的光環，方便決定下一個追擊目標。",
+        "image": "assets/images/perks/killers/Cannibal/BBQ and Chili.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": [
+            {
+                "id": "pain-resonance",
+                "reason": "掛人後同時炸機和看見其他人類位置，馬上決定下一個去哪裡"
+            }
+        ]
+    },
+    {
+        "id": "franklins-demise",
+        "name": "富蘭克林之死",
+        "name_en": "Franklin's Demise",
+        "aliases": [
+            "打手"
+        ],
+        "role": "killer",
+        "owner": "食人魔 (The Cannibal)",
+        "desc": "普通攻擊會讓人類掉落手上的道具，掉在地上的道具會逐漸耗損，你也能看到附近道具的氣場。",
+        "image": "assets/images/perks/killers/Cannibal/Franklin_s Demise.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "knock-out",
+        "name": "擊倒出局",
+        "name_en": "Knock Out",
+        "aliases": [],
+        "role": "killer",
+        "owner": "食人魔 (The Cannibal)",
+        "desc": "用普通攻擊擊倒人類後的一段時間內，其他人類看不到倒地者的氣場，倒地者爬行也會變慢。",
+        "image": "assets/images/perks/killers/Cannibal/Knock Out.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "deadlock",
+        "name": "死鎖",
+        "name_en": "Deadlock",
+        "aliases": [],
+        "role": "killer",
+        "owner": "地獄修士 (The Cenobite)",
+        "desc": "每當有發電機修好，進度最高的發電機會被惡靈封鎖一段時間。",
+        "image": "assets/images/perks/killers/Cenobite/Deadlock.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "plaything",
+        "name": "厄咒：玩物",
+        "name_en": "Hex: Plaything",
+        "aliases": [],
+        "role": "killer",
+        "owner": "地獄修士 (The Cenobite)",
+        "desc": "人類第一次被掛上鉤子時會被詛咒，陷入渾然不覺狀態，直到他淨化與自己連結的厄咒圖騰為止。",
+        "image": "assets/images/perks/killers/Cenobite/Hex Plaything.png",
+        "tags": [
+            "厄咒",
+            "隱蔽",
+            "減益",
+            "渾然不覺"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "gift-of-pain",
+        "name": "天災鉤：苦痛贈禮",
+        "name_en": "Scourge Hook: Gift of Pain",
+        "aliases": [
+            "釘子鉤"
+        ],
+        "role": "killer",
+        "owner": "地獄修士 (The Cenobite)",
+        "desc": "人類從天災鉤被救下後會陷入出血與重傷，直到被完全治療；治療完成後，修機與治療速度會降低。",
+        "image": "assets/images/perks/killers/Cenobite/Scourge Hook Gift of Pain.png",
+        "tags": [
+            "天災鉤",
+            "減益",
+            "反修機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "bamboozle",
+        "name": "花言巧語",
+        "name_en": "Bamboozle",
+        "aliases": [
+            "封窗"
+        ],
+        "role": "killer",
+        "owner": "小丑 (The Clown)",
+        "desc": "翻越窗戶的速度變快，而且你翻過的窗戶會被惡靈暫時封鎖，人類無法翻越。",
+        "image": "assets/images/perks/killers/Clown/Bamboozle.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "coulrophobia",
+        "name": "小丑恐懼症",
+        "name_en": "Coulrophobia",
+        "aliases": [],
+        "role": "killer",
+        "owner": "小丑 (The Clown)",
+        "desc": "恐懼範圍內的人類治療速度變慢，治療時的技能檢定指針也會亂跳。",
+        "image": "assets/images/perks/killers/Clown/Coulrophobia.png",
+        "tags": [
+            "減益",
+            "反治療"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "pop-goes-the-weasel",
+        "name": "心驚肉跳",
+        "name_en": "Pop Goes the Weasel",
+        "aliases": [
+            "紅踹",
+            "小丑角"
+        ],
+        "role": "killer",
+        "owner": "小丑 (The Clown)",
+        "desc": "把人類掛上鉤子後的一段時間內，你下一次破壞的發電機會立刻損失大量進度。",
+        "image": "assets/images/perks/killers/Clown/Pop Goes the Weasel.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "dominance",
+        "name": "支配",
+        "name_en": "Dominance",
+        "aliases": [],
+        "role": "killer",
+        "owner": "黑暗領主 (The Dark Lord)",
+        "desc": "人類第一次互動某個圖騰時，該圖騰會被暫時封鎖，你會看到圖騰位置，並短暫看到該人類的氣場。",
+        "image": "assets/images/perks/killers/Dark Lord/Dominance.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "wretched-fate",
+        "name": "厄咒：悲慘命運",
+        "name_en": "Hex: Wretched Fate",
+        "aliases": [],
+        "role": "killer",
+        "owner": "黑暗領主 (The Dark Lord)",
+        "desc": "有發電機修好時，會生成與血祭品連結的厄咒圖騰；在淨化前，血祭品修機速度降低。",
+        "image": "assets/images/perks/killers/Dark Lord/Hex Wretched Fate.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "human-greed",
+        "name": "人性貪婪",
+        "name_en": "Human Greed",
+        "aliases": [],
+        "role": "killer",
+        "owner": "黑暗領主 (The Dark Lord)",
+        "desc": "你可以踢開和關上寶箱，並且隨時看到未開啟寶箱的氣場；人類靠近這些寶箱時會短暫暴露氣場。",
+        "image": "assets/images/perks/killers/Dark Lord/Human Greed.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "dead-mans-switch",
+        "name": "死者開關",
+        "name_en": "Dead Man's Switch",
+        "aliases": [
+            "失效開關"
+        ],
+        "role": "killer",
+        "owner": "死亡槍手 (The Deathslinger)",
+        "desc": "把人類掛上鉤子後的一段時間內，只要人類放手不修發電機，那台發電機就會被惡靈封鎖。",
+        "image": "assets/images/perks/killers/Deathslinger/Dead Man_s Switch.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "gearhead",
+        "name": "機械愛好者",
+        "name_en": "Gearhead",
+        "aliases": [
+            "機械腦",
+            "設備發燒友"
+        ],
+        "role": "killer",
+        "owner": "死亡槍手 (The Deathslinger)",
+        "desc": "人類受傷後的一段時間內，只要他們修機時打出好的技能檢定，你就會看到那台發電機的氣場。",
+        "image": "assets/images/perks/killers/Deathslinger/Gearhead.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "retribution",
+        "name": "厄咒：懲戒",
+        "name_en": "Hex: Retribution",
+        "aliases": [],
+        "role": "killer",
+        "owner": "死亡槍手 (The Deathslinger)",
+        "desc": "淨化任何圖騰的人類會陷入渾然不覺；這個厄咒圖騰被淨化時，所有人類的氣場會暴露一段時間。",
+        "image": "assets/images/perks/killers/Deathslinger/Hex Retribution.png",
+        "tags": [
+            "厄咒",
+            "氣場",
+            "減益",
+            "渾然不覺"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "cruel-limits",
+        "name": "幽閉恐懼症",
+        "name_en": "Cruel Limits",
+        "aliases": [],
+        "role": "killer",
+        "owner": "魔神 (The Demogorgon)",
+        "desc": "每當有發電機修好，附近的窗戶會被惡靈封鎖一段時間。",
+        "image": "assets/images/perks/killers/Demogorgon/Cruel Limits.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "mindbreaker",
+        "name": "心神破碎",
+        "name_en": "Mindbreaker",
+        "aliases": [],
+        "role": "killer",
+        "owner": "魔神 (The Demogorgon)",
+        "desc": "修理發電機的人類會陷入障目與疲勞狀態，看不到氣場也無法使用衝刺類技能。",
+        "image": "assets/images/perks/killers/Demogorgon/Mindbreaker.png",
+        "tags": [
+            "減益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "surge",
+        "name": "突爆",
+        "name_en": "Surge",
+        "aliases": [],
+        "role": "killer",
+        "owner": "魔神 (The Demogorgon)",
+        "desc": "用普通攻擊擊倒人類時，附近的發電機會爆炸並開始倒退進度。",
+        "image": "assets/images/perks/killers/Demogorgon/Surge.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "monitor-and-abuse",
+        "name": "監控與虐待",
+        "name_en": "Monitor and Abuse",
+        "aliases": [
+            "醫生眼"
+        ],
+        "role": "killer",
+        "owner": "醫生 (The Doctor)",
+        "desc": "沒有在追逐時恐懼範圍縮小、視野變大；進入追逐後恐懼範圍才會變大。",
+        "image": "assets/images/perks/killers/Doctor/Monitor and Abuse.png",
+        "tags": [
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "overcharge",
+        "name": "電壓超載",
+        "name_en": "Overcharge",
+        "aliases": [
+            "醫生腳"
+        ],
+        "role": "killer",
+        "owner": "醫生 (The Doctor)",
+        "desc": "破壞發電機後，下一位修理它的人類會遇到很難的技能檢定，失敗會損失進度；之後這台發電機倒退得越來越快。",
+        "image": "assets/images/perks/killers/Doctor/Overcharge.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "overwhelming-presence",
+        "name": "壓制性氣場",
+        "name_en": "Overwhelming Presence",
+        "aliases": [],
+        "role": "killer",
+        "owner": "醫生 (The Doctor)",
+        "desc": "恐懼範圍內的人類使用道具時，道具的消耗速度變快。",
+        "image": "assets/images/perks/killers/Doctor/Overwhelming Presence.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "darkness-revealed",
+        "name": "揭曉黑暗",
+        "name_en": "Darkness Revealed",
+        "aliases": [
+            "開櫃透"
+        ],
+        "role": "killer",
+        "owner": "淤神 (The Dredge)",
+        "desc": "打開置物櫃時，會看到所有置物櫃附近人類的氣場。",
+        "image": "assets/images/perks/killers/Dredge/Darkness Revealed.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "dissolution",
+        "name": "消解",
+        "name_en": "Dissolution",
+        "aliases": [],
+        "role": "killer",
+        "owner": "淤神 (The Dredge)",
+        "desc": "人類在你附近快速翻越後的一段時間內，他們放下的下一塊木板會直接碎掉。",
+        "image": "assets/images/perks/killers/Dredge/Dissolution.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "septic-touch",
+        "name": "感染碰觸",
+        "name_en": "Septic Touch",
+        "aliases": [],
+        "role": "killer",
+        "owner": "淤神 (The Dredge)",
+        "desc": "人類在你的恐懼範圍內治療時，會陷入障目與疲勞狀態。",
+        "image": "assets/images/perks/killers/Dredge/Septic Touch.png",
+        "tags": [
+            "反治療",
+            "減益",
+            "疲勞"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "deathbound",
+        "name": "死亡枷鎖",
+        "name_en": "Deathbound",
+        "aliases": [],
+        "role": "killer",
+        "owner": "處刑者 (The Executioner)",
+        "desc": "人類在遠離你的地方治好隊友時會尖叫並暴露位置，之後只要離開被治療的隊友，就會陷入渾然不覺。",
+        "image": "assets/images/perks/killers/Executioner/Deathbound.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "forced-penance",
+        "name": "強制懺悔",
+        "name_en": "Forced Penance",
+        "aliases": [],
+        "role": "killer",
+        "owner": "處刑者 (The Executioner)",
+        "desc": "替隊友擋刀（保護擊）的人類會陷入不治狀態一段時間，無法被治療。",
+        "image": "assets/images/perks/killers/Executioner/Forced Penance.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "trail-of-torment",
+        "name": "折磨路徑",
+        "name_en": "Trail of Torment",
+        "aliases": [],
+        "role": "killer",
+        "owner": "處刑者 (The Executioner)",
+        "desc": "破壞發電機後，你會變得無法被察覺（沒有心跳與紅光），直到這台發電機停止倒退。",
+        "image": "assets/images/perks/killers/Executioner/Trail of Torment.png",
+        "tags": [
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "hive-mind",
+        "name": "厄咒：蜂巢心智",
+        "name_en": "Hex: Hive Mind",
+        "aliases": [],
+        "role": "killer",
+        "owner": "原初者 (The First)",
+        "desc": "第一次把人類掛上鉤子時生成厄咒圖騰，你能看到發電機的位置和修理進度；修好四台時，其餘發電機會爆炸並開始倒退。",
+        "image": "assets/images/perks/killers/First/Hex Hive Mind.png",
+        "tags": [
+            "控機",
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "secret-project",
+        "name": "秘密項目",
+        "name_en": "Secret Project",
+        "aliases": [],
+        "role": "killer",
+        "owner": "原初者 (The First)",
+        "desc": "人類祝福或淨化圖騰時，會隨機封鎖一台發電機；每當有發電機被封鎖，你都會暫時變得無法被察覺。",
+        "image": "assets/images/perks/killers/First/Secret Project.png",
+        "tags": [
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "turn-back-the-clock",
+        "name": "逆轉時光",
+        "name_en": "Turn Back the Clock",
+        "aliases": [
+            "時光倒流"
+        ],
+        "role": "killer",
+        "owner": "原初者 (The First)",
+        "desc": "把人類掛上鉤子後的一段時間內，可以主動讓附近一台發電機爆炸、損失進度並開始倒退。",
+        "image": "assets/images/perks/killers/First/Turn Back the Clock.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "bitter-murmur",
+        "name": "苦澀低語",
+        "name_en": "Bitter Murmur",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "每修好一台發電機，你會短暫看到附近人類的氣場；最後一台修好時，會看到所有人類。",
+        "image": "assets/images/perks/killers/General Killer/Bitter Murmur.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "deerstalker",
+        "name": "獵鹿人",
+        "name_en": "Deerstalker",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "能看到一定範圍內倒地人類的氣場，不怕他們爬走躲起來。",
+        "image": "assets/images/perks/killers/General Killer/Deerstalker.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "distressing",
+        "name": "恐懼釋放",
+        "name_en": "Distressing",
+        "aliases": [
+            "大心跳"
+        ],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "恐懼範圍大幅擴大，讓更多人類長時間處在心跳聲中。",
+        "image": "assets/images/perks/killers/General Killer/Distressing.png",
+        "tags": [
+            "反修機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "no-one-escapes-death",
+        "name": "厄咒：難逃一死",
+        "name_en": "Hex: No One Escapes Death",
+        "aliases": [
+            "一刀"
+        ],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "發電機全部修好後，若地圖上還有未淨化的圖騰就會生成厄咒圖騰：所有人類陷入暴露狀態（被打一下就倒），你的移動速度也會提升。",
+        "image": "assets/images/perks/killers/General Killer/Hex No One Escapes Death.png",
+        "tags": [
+            "厄咒",
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "thrill-of-the-hunt",
+        "name": "厄咒：獵殺戾氣",
+        "name_en": "Hex: Thrill of the Hunt",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "地圖上每有一個厄咒圖騰，人類淨化和祝福圖騰的速度就會變慢；人類開始淨化厄咒圖騰時你會收到通知。",
+        "image": "assets/images/perks/killers/General Killer/Hex Thrill of the Hunt.png",
+        "tags": [
+            "厄咒"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "insidious",
+        "name": "靜止隱身",
+        "name_en": "Insidious",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "站著不動一段時間後恐懼範圍會消失，人類察覺不到你在附近。",
+        "image": "assets/images/perks/killers/General Killer/Insidious.png",
+        "tags": [
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "iron-grasp",
+        "name": "牢牢緊握",
+        "name_en": "Iron Grasp",
+        "aliases": [
+            "鐵手"
+        ],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "扛著人類時，人類掙扎造成的晃動變小，掙脫所需的時間也變長。",
+        "image": "assets/images/perks/killers/General Killer/Iron Grasp.png",
+        "tags": [
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "monstrous-shrine",
+        "name": "天災鉤：鬼魔神龕",
+        "name_en": "Scourge Hook: Monstrous Shrine",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "地下室的鉤子會變成天災鉤；你離開一段距離時，掛在上面的人類被獻祭的進度會跑得更快。",
+        "image": "assets/images/perks/killers/General Killer/Scourge Hook Monstrous Shrine.png",
+        "tags": [
+            "天災鉤",
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "shattered-hope",
+        "name": "希望破滅",
+        "name_en": "Shattered Hope",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "破壞人類的祝福圖騰時，你會看到附近人類的氣場一段時間。",
+        "image": "assets/images/perks/killers/General Killer/Shattered Hope.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "sloppy-butcher",
+        "name": "辣手屠夫",
+        "name_en": "Sloppy Butcher",
+        "aliases": [
+            "豬頭"
+        ],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "普通攻擊命中時，讓人類陷入出血與重傷狀態：治療變慢，且會留下更多血跡。",
+        "image": "assets/images/perks/killers/General Killer/Sloppy Butcher.png",
+        "tags": [
+            "反治療",
+            "出血",
+            "重傷"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "spies-from-the-shadows",
+        "name": "鬼鴉蝶影",
+        "name_en": "Spies from the Shadows",
+        "aliases": [
+            "烏鴉"
+        ],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "人類嚇飛附近的烏鴉時，你會收到聲音提示，知道大概位置。",
+        "image": "assets/images/perks/killers/General Killer/Spies from the Shadows.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "unrelenting",
+        "name": "不屈不撓",
+        "name_en": "Unrelenting",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "普通攻擊落空後的冷卻時間縮短，揮空也能很快再追上。",
+        "image": "assets/images/perks/killers/General Killer/Unrelenting.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "whispers",
+        "name": "竊竊私語",
+        "name_en": "Whispers",
+        "aliases": [],
+        "role": "killer",
+        "owner": "通用技能",
+        "desc": "附近有人類時，你會聽到惡靈的低語，知道附近有人但不知道確切位置。",
+        "image": "assets/images/perks/killers/General Killer/Whispers.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "furtive-chase",
+        "name": "鬼祟追逐",
+        "name_en": "Furtive Chase",
+        "aliases": [
+            "鬼祟"
+        ],
+        "role": "killer",
+        "owner": "鬼臉 (The Ghostface)",
+        "desc": "救下血祭品的人類會變成新的血祭品；每次掛上血祭品都會獲得代幣，追逐血祭品時恐懼範圍會縮小。",
+        "image": "assets/images/perks/killers/Ghostface/Furtive Chase.png",
+        "tags": [
+            "追逐",
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "im-all-ears",
+        "name": "洗耳共聽",
+        "name_en": "I'm All Ears",
+        "aliases": [],
+        "role": "killer",
+        "owner": "鬼臉 (The Ghostface)",
+        "desc": "人類在你附近快速翻越時，會暴露氣場一段時間。",
+        "image": "assets/images/perks/killers/Ghostface/I_m All Ears.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "thrilling-tremors",
+        "name": "驚慄顫慄",
+        "name_en": "Thrilling Tremors",
+        "aliases": [
+            "抬人封機"
+        ],
+        "role": "killer",
+        "owner": "鬼臉 (The Ghostface)",
+        "desc": "扛起人類時，所有沒有人在修的發電機會被惡靈封鎖一段時間，並以黃色氣場標示。",
+        "image": "assets/images/perks/killers/Ghostface/Thrilling Tremors.png",
+        "tags": [
+            "控機",
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "forever-entwined",
+        "name": "永世糾纏",
+        "name_en": "Forever Entwined",
+        "aliases": [],
+        "role": "killer",
+        "owner": "食屍鬼 (The Ghoul)",
+        "desc": "每次人類受傷就獲得代幣，代幣越多，放下、扛起和掛上人類的速度越快。",
+        "image": "assets/images/perks/killers/Ghoul/Forever Entwined.png",
+        "tags": [
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "nothing-but-misery",
+        "name": "厄咒：無盡痛苦",
+        "name_en": "Hex: Nothing But Misery",
+        "aliases": [],
+        "role": "killer",
+        "owner": "食屍鬼 (The Ghoul)",
+        "desc": "普通攻擊命中多次後生成厄咒圖騰，之後被普通攻擊擊中的人類會減速，翻越也會變慢。",
+        "image": "assets/images/perks/killers/Ghoul/Hex Nothing But Misery.png",
+        "tags": [
+            "厄咒",
+            "減益",
+            "減速"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "none-are-free",
+        "name": "無人自由",
+        "name_en": "None Are Free",
+        "aliases": [],
+        "role": "killer",
+        "owner": "食屍鬼 (The Ghoul)",
+        "desc": "每第一次掛上一位人類就獲得代幣；發電機全部修好後，窗戶和木板會被封鎖一段時間，代幣越多封鎖越久。",
+        "image": "assets/images/perks/killers/Ghoul/None Are Free.png",
+        "tags": [
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "batteries-included",
+        "name": "內附電池",
+        "name_en": "Batteries Included",
+        "aliases": [
+            "電池"
+        ],
+        "role": "killer",
+        "owner": "好孩子娃娃 (The Good Guy)",
+        "desc": "待在已修好的發電機附近時，你的移動速度會短暫提升。",
+        "image": "assets/images/perks/killers/Good Guy/Batteries Included.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "friends-til-the-end",
+        "name": "超「吉」死黨",
+        "name_en": "Friends Til the End",
+        "aliases": [
+            "恰吉鉤"
+        ],
+        "role": "killer",
+        "owner": "好孩子娃娃 (The Good Guy)",
+        "desc": "掛上非血祭品的人類時，血祭品會暴露氣場並陷入暴露狀態；掛上血祭品時，隨機一位人類會尖叫並成為新的血祭品。",
+        "image": "assets/images/perks/killers/Good Guy/Friends Til the End.png",
+        "tags": [
+            "血祭品",
+            "情報",
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "eye-for-an-eye",
+        "name": "厄咒：以眼還眼",
+        "name_en": "Hex: Eye for an Eye",
+        "aliases": [],
+        "role": "killer",
+        "owner": "好孩子娃娃 (The Good Guy)",
+        "desc": "被人類用木板砸暈或照瞎一定次數後生成厄咒圖騰，之後砸暈或照瞎你的人類會反過來短暫失明。",
+        "image": "assets/images/perks/killers/Good Guy/Hex Eye for an Eye.png",
+        "tags": [
+            "厄咒"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "devour-hope",
+        "name": "厄咒：吞噬希望",
+        "name_en": "Hex: Devour Hope",
+        "aliases": [],
+        "role": "killer",
+        "owner": "妖巫 (The Hag)",
+        "desc": "人類從鉤子被救下時，若你在遠處就獲得代幣；代幣累積越多，效果越強，最後所有人類會陷入暴露狀態，甚至可以直接用普通攻擊擊殺人類。",
+        "image": "assets/images/perks/killers/Hag/Hex Devour Hope.png",
+        "tags": [
+            "厄咒",
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "ruin",
+        "name": "厄咒：毀滅",
+        "name_en": "Hex: Ruin",
+        "aliases": [
+            "爆爆"
+        ],
+        "role": "killer",
+        "owner": "妖巫 (The Hag)",
+        "desc": "沒有人在修理的發電機會自動倒退進度。",
+        "image": "assets/images/perks/killers/Hag/Hex Ruin.png",
+        "tags": [
+            "厄咒",
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "third-seal",
+        "name": "厄咒：第三封印",
+        "name_en": "Hex: Third Seal",
+        "aliases": [],
+        "role": "killer",
+        "owner": "妖巫 (The Hag)",
+        "desc": "被你擊中的人類會陷入障目狀態，看不到任何氣場。",
+        "image": "assets/images/perks/killers/Hag/Hex Third Seal.png",
+        "tags": [
+            "厄咒",
+            "減益",
+            "障目"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "enduring",
+        "name": "耐力持久",
+        "name_en": "Enduring",
+        "aliases": [
+            "鐵頭"
+        ],
+        "role": "killer",
+        "owner": "電鋸殺手 (The Hillbilly)",
+        "desc": "被木板砸暈的時間縮短，可以更快繼續追擊。",
+        "image": "assets/images/perks/killers/Hillbilly/Enduring.png",
+        "tags": [
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "lightborn",
+        "name": "光明之眼",
+        "name_en": "Lightborn",
+        "aliases": [
+            "光眼"
+        ],
+        "role": "killer",
+        "owner": "電鋸殺手 (The Hillbilly)",
+        "desc": "不會被手電筒、閃光彈等致盲，被照到時反而能看到對方的氣場。",
+        "image": "assets/images/perks/killers/Hillbilly/Lightborn.png",
+        "tags": [
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "tinkerer",
+        "name": "工匠",
+        "name_en": "Tinkerer",
+        "aliases": [],
+        "role": "killer",
+        "owner": "電鋸殺手 (The Hillbilly)",
+        "desc": "發電機修到一定進度時你會收到通知，並在一段時間內變得無法被察覺。",
+        "image": "assets/images/perks/killers/Hillbilly/Tinkerer.png",
+        "tags": [
+            "情報",
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "all-shaking-thunder",
+        "name": "震撼雷霆",
+        "name_en": "All-Shaking Thunder",
+        "aliases": [
+            "落地長刀"
+        ],
+        "role": "killer",
+        "owner": "訓犬師 (The Houndmaster)",
+        "desc": "從高處跳下後的一段時間內，你的撲擊攻擊距離大幅增加。",
+        "image": "assets/images/perks/killers/Houndmaster/All-Shaking Thunder.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "no-quarter",
+        "name": "絕不饒恕",
+        "name_en": "No Quarter",
+        "aliases": [],
+        "role": "killer",
+        "owner": "訓犬師 (The Houndmaster)",
+        "desc": "人類自我治療快完成時，需要連續通過技能檢定，失敗或中斷就會陷入不治狀態一段時間。",
+        "image": "assets/images/perks/killers/Houndmaster/No Quarter.png",
+        "tags": [
+            "反治療",
+            "減益",
+            "不治"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "jagged-compass",
+        "name": "天災鉤：鋸齒指南針",
+        "name_en": "Scourge Hook: Jagged Compass",
+        "aliases": [],
+        "role": "killer",
+        "owner": "訓犬師 (The Houndmaster)",
+        "desc": "開場有四個天災鉤，人類從普通鉤子被救下後，那個鉤子也會變成天災鉤；把人類掛在天災鉤上時，會標示出進度最高的發電機。",
+        "image": "assets/images/perks/killers/Houndmaster/Scourge Hook Jagged Compass.png",
+        "tags": [
+            "天災鉤",
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "beast-of-prey",
+        "name": "狩獵本能",
+        "name_en": "Beast of Prey",
+        "aliases": [],
+        "role": "killer",
+        "owner": "女獵手 (The Huntress)",
+        "desc": "獲得嗜血狀態後的一段時間內，你身上的紅光會消失，人類很難判斷你看向哪裡。",
+        "image": "assets/images/perks/killers/Huntress/Beast of Prey.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "huntress-lullaby",
+        "name": "厄咒：獵手搖籃曲",
+        "name_en": "Hex: Huntress Lullaby",
+        "aliases": [],
+        "role": "killer",
+        "owner": "女獵手 (The Huntress)",
+        "desc": "每掛上一位人類，人類技能檢定的提示音就會變小；代幣夠多時完全沒有提示音，失敗還會損失更多進度。",
+        "image": "assets/images/perks/killers/Huntress/Hex Huntress Lullaby.png",
+        "tags": [
+            "厄咒"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "territorial-imperative",
+        "name": "領地意識",
+        "name_en": "Territorial Imperative",
+        "aliases": [],
+        "role": "killer",
+        "owner": "女獵手 (The Huntress)",
+        "desc": "人類進入地下室時，你會看到他們的氣場。",
+        "image": "assets/images/perks/killers/Huntress/Territorial Imperative.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "celestial-witness",
+        "name": "星辰證人",
+        "name_en": "Celestial Witness",
+        "aliases": [
+            "天使眼"
+        ],
+        "role": "killer",
+        "owner": "審判者 (The Judgment)",
+        "desc": "每隔一段時間，若血祭品在你附近就會短暫看到他的氣場；若血祭品離你太遠，最遠的人類會變成新的血祭品。",
+        "image": "assets/images/perks/killers/Judgment/Celestial Witness.png",
+        "tags": [
+            "血祭品",
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "under-your-thumb",
+        "name": "厄咒：掌控",
+        "name_en": "Hex: Under Your Thumb",
+        "aliases": [],
+        "role": "killer",
+        "owner": "審判者 (The Judgment)",
+        "desc": "人類被掛上鉤子時生成厄咒圖騰；奔跑中的人類無法疊加太多加速效果，在你附近獲得加速的人類會暴露氣場。",
+        "image": "assets/images/perks/killers/Judgment/Hex Under Your Thumb.png",
+        "tags": [
+            "厄咒"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "lay-waste",
+        "name": "毀於一旦",
+        "name_en": "Lay Waste",
+        "aliases": [
+            "天使腳"
+        ],
+        "role": "killer",
+        "owner": "審判者 (The Judgment)",
+        "desc": "發電機的修理進度越高，被你破壞後倒退得越快。",
+        "image": "assets/images/perks/killers/Judgment/Lay Waste.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "face-the-darkness",
+        "name": "厄咒：面對黑暗",
+        "name_en": "Hex: Face the Darkness",
+        "aliases": [],
+        "role": "killer",
+        "owner": "惡騎士 (The Knight)",
+        "desc": "生成厄咒圖騰後，你在追逐人類時，其他離你較遠的人類會定期尖叫並暴露位置。",
+        "image": "assets/images/perks/killers/Knight/Hex Face the Darkness.png",
+        "tags": [
+            "厄咒",
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "hubris",
+        "name": "驕兵必破",
+        "name_en": "Hubris",
+        "aliases": [
+            "壓板一刀"
+        ],
+        "role": "killer",
+        "owner": "惡騎士 (The Knight)",
+        "desc": "被木板砸暈時，砸你的人類會陷入暴露狀態一段時間。",
+        "image": "assets/images/perks/killers/Knight/Hubris.png",
+        "tags": [
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "nowhere-to-hide",
+        "name": "無所遁形",
+        "name_en": "Nowhere to Hide",
+        "aliases": [
+            "騎士腳"
+        ],
+        "role": "killer",
+        "owner": "惡騎士 (The Knight)",
+        "desc": "破壞發電機時，會看到附近所有人類的氣場。",
+        "image": "assets/images/perks/killers/Knight/Nowhere to Hide.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "overture-of-doom",
+        "name": "厄咒：毀滅序曲",
+        "name_en": "Hex: Overture of Doom",
+        "aliases": [],
+        "role": "killer",
+        "owner": "卡蘇 (The Krasue)",
+        "desc": "詛咒離你最遠的發電機；人類修理它時，你的恐懼範圍會轉移到那台發電機上，之後詛咒會換到下一台最遠的發電機。",
+        "image": "assets/images/perks/killers/Krasue/Hex Overture of Doom.png",
+        "tags": [
+            "厄咒",
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "ravenous",
+        "name": "貪食",
+        "name_en": "Ravenous",
+        "aliases": [],
+        "role": "killer",
+        "owner": "卡蘇 (The Krasue)",
+        "desc": "每第一次掛上一位人類就獲得代幣，扛人時掛鉤和移動速度變快；代幣滿時所有人類會尖叫並陷入暴露狀態。",
+        "image": "assets/images/perks/killers/Krasue/Ravenous.png",
+        "tags": [
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "wandering-eye",
+        "name": "迴盪之眼",
+        "name_en": "Wandering Eye",
+        "aliases": [],
+        "role": "killer",
+        "owner": "卡蘇 (The Krasue)",
+        "desc": "開始追逐人類時，會短暫看到附近其他受傷人類的氣場。",
+        "image": "assets/images/perks/killers/Krasue/Wandering Eye.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "discordance",
+        "name": "衝突",
+        "name_en": "Discordance",
+        "aliases": [],
+        "role": "killer",
+        "owner": "軍團 (The Legion)",
+        "desc": "有兩位以上人類同時修理同一台發電機時，該發電機會以黃色氣場標示給你。",
+        "image": "assets/images/perks/killers/Legion/Discordance.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "iron-maiden",
+        "name": "鐵處女",
+        "name_en": "Iron Maiden",
+        "aliases": [],
+        "role": "killer",
+        "owner": "軍團 (The Legion)",
+        "desc": "打開置物櫃的速度變快；從置物櫃出來的人類會尖叫、暴露位置，並陷入暴露狀態。",
+        "image": "assets/images/perks/killers/Legion/Iron Maiden.png",
+        "tags": [
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "mad-grit",
+        "name": "瘋狂勇氣",
+        "name_en": "Mad Grit",
+        "aliases": [],
+        "role": "killer",
+        "owner": "軍團 (The Legion)",
+        "desc": "扛著人類時普通攻擊落空沒有冷卻，擊中其他人類還能延長扛人時間。",
+        "image": "assets/images/perks/killers/Legion/Mad Grit.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "dark-arrogance",
+        "name": "黑暗狂傲",
+        "name_en": "Dark Arrogance",
+        "aliases": [],
+        "role": "killer",
+        "owner": "巫妖 (The Lich)",
+        "desc": "翻窗速度與普通攻擊後的恢復速度變快，但被木板砸暈或被致盲的時間也會變長。",
+        "image": "assets/images/perks/killers/Lich/Dark Arrogance.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "languid-touch",
+        "name": "致倦驚鴉",
+        "name_en": "Languid Touch",
+        "aliases": [
+            "烏鴉疲勞"
+        ],
+        "role": "killer",
+        "owner": "巫妖 (The Lich)",
+        "desc": "人類在你附近嚇飛烏鴉時，會陷入疲勞狀態一段時間。",
+        "image": "assets/images/perks/killers/Lich/Languid Touch.png",
+        "tags": [
+            "減益",
+            "疲勞"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "weave-attunement",
+        "name": "魔網同調",
+        "name_en": "Weave Attunement",
+        "aliases": [],
+        "role": "killer",
+        "owner": "巫妖 (The Lich)",
+        "desc": "人類的道具第一次用完時會掉在地上，你能看到道具和附近人類的氣場；撿起道具的人類會陷入渾然不覺。",
+        "image": "assets/images/perks/killers/Lich/Weave Attunement.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "awakened-awareness",
+        "name": "感應覺醒",
+        "name_en": "Awakened Awareness",
+        "aliases": [],
+        "role": "killer",
+        "owner": "首腦 (The Mastermind)",
+        "desc": "扛著人類時，能看到附近所有人類的氣場。",
+        "image": "assets/images/perks/killers/Mastermind/Awakened Awareness.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "superior-anatomy",
+        "name": "超人類體能",
+        "name_en": "Superior Anatomy",
+        "aliases": [
+            "快翻"
+        ],
+        "role": "killer",
+        "owner": "首腦 (The Mastermind)",
+        "desc": "人類在你附近快速翻越後，你下一次翻窗的速度會大幅加快。",
+        "image": "assets/images/perks/killers/Mastermind/Superior Anatomy.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "terminus",
+        "name": "趕盡殺絕",
+        "name_en": "Terminus",
+        "aliases": [
+            "威哥椅",
+            "終局不治"
+        ],
+        "role": "killer",
+        "owner": "首腦 (The Mastermind)",
+        "desc": "大門通電後，受傷、倒地或被掛在鉤上的人類會陷入不治狀態，一段時間內無法被治療。",
+        "image": "assets/images/perks/killers/Mastermind/Terminus.png",
+        "tags": [
+            "終局",
+            "減益",
+            "不治"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "eruption",
+        "name": "爆發",
+        "name_en": "Eruption",
+        "aliases": [],
+        "role": "killer",
+        "owner": "追跡者 (The Nemesis)",
+        "desc": "破壞過的發電機會被標記；擊倒人類時，被標記的發電機會一起爆炸倒退，正在修理的人類會尖叫並暫時無法行動。",
+        "image": "assets/images/perks/killers/Nemesis/Eruption.png",
+        "tags": [
+            "控機",
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "hysteria",
+        "name": "歇斯底里",
+        "name_en": "Hysteria",
+        "aliases": [],
+        "role": "killer",
+        "owner": "追跡者 (The Nemesis)",
+        "desc": "讓健康的人類受傷時，所有受傷的人類會陷入渾然不覺一段時間。",
+        "image": "assets/images/perks/killers/Nemesis/Hysteria.png",
+        "tags": [
+            "減益",
+            "渾然不覺"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "lethal-pursuer",
+        "name": "致命追逐者",
+        "name_en": "Lethal Pursuer",
+        "aliases": [
+            "開9"
+        ],
+        "role": "killer",
+        "owner": "追跡者 (The Nemesis)",
+        "desc": "比賽開始時會看到所有人類的氣場，其他顯示氣場的效果時間也會延長。",
+        "image": "assets/images/perks/killers/Nemesis/Lethal Pursuer.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "blood-warden",
+        "name": "血腥獄長",
+        "name_en": "Blood Warden",
+        "aliases": [
+            "封門"
+        ],
+        "role": "killer",
+        "owner": "夢魘 (The Nightmare)",
+        "desc": "大門打開後，把人類掛上鉤子時大門會被惡靈封鎖一段時間，人類無法逃出。",
+        "image": "assets/images/perks/killers/Nightmare/Blood Warden.png",
+        "tags": [
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "fire-up",
+        "name": "怒火中燒",
+        "name_en": "Fire Up",
+        "aliases": [],
+        "role": "killer",
+        "owner": "夢魘 (The Nightmare)",
+        "desc": "每修好一台發電機，你撿起與放下人類、破壞木板與發電機、翻窗的速度都會提升。",
+        "image": "assets/images/perks/killers/Nightmare/Fire Up.png",
+        "tags": [
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "remember-me",
+        "name": "記憶猶新",
+        "name_en": "Remember Me",
+        "aliases": [
+            "勿忘我"
+        ],
+        "role": "killer",
+        "owner": "夢魘 (The Nightmare)",
+        "desc": "血祭品每次被你擊中受傷，大門開啟所需的時間就會變長。",
+        "image": "assets/images/perks/killers/Nightmare/Remember Me.png",
+        "tags": [
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "a-nurses-calling",
+        "name": "護士的呼喚",
+        "name_en": "A Nurse's Calling",
+        "aliases": [
+            "護士眼"
+        ],
+        "role": "killer",
+        "owner": "護士 (The Nurse)",
+        "desc": "能看到附近正在治療或被治療的人類氣場。",
+        "image": "assets/images/perks/killers/Nurse/A Nurse_s Calling.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "stridor",
+        "name": "鳴喘",
+        "name_en": "Stridor",
+        "aliases": [],
+        "role": "killer",
+        "owner": "護士 (The Nurse)",
+        "desc": "人類的呼吸聲和受傷呻吟聲變得更大聲，更容易循聲找到人。",
+        "image": "assets/images/perks/killers/Nurse/Stridor.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "thanatophobia",
+        "name": "死亡恐懼",
+        "name_en": "Thanatophobia",
+        "aliases": [],
+        "role": "killer",
+        "owner": "護士 (The Nurse)",
+        "desc": "每有一位受傷、倒地或被掛的人類，所有人類的修機、淨化和治療速度都會降低。",
+        "image": "assets/images/perks/killers/Nurse/Thanatophobia.png",
+        "tags": [
+            "反治療",
+            "反修機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "blood-echo",
+        "name": "鮮血回音",
+        "name_en": "Blood Echo",
+        "aliases": [],
+        "role": "killer",
+        "owner": "鬼武士 (Oni)",
+        "desc": "把人類掛上鉤子時，其他受傷的人類會陷入出血與疲勞狀態。",
+        "image": "assets/images/perks/killers/Oni/Blood Echo.png",
+        "tags": [
+            "反治療",
+            "減益",
+            "出血"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "nemesis",
+        "name": "宿敵",
+        "name_en": "Nemesis",
+        "aliases": [
+            "報應"
+        ],
+        "role": "killer",
+        "owner": "鬼武士 (Oni)",
+        "desc": "用木板或手電筒攻擊你的人類會變成新的血祭品，並暴露氣場一段時間。",
+        "image": "assets/images/perks/killers/Oni/Nemesis.png",
+        "tags": [
+            "血祭品",
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "zanshin-tactics",
+        "name": "殘心策略",
+        "name_en": "Zanshin Tactics",
+        "aliases": [],
+        "role": "killer",
+        "owner": "鬼武士 (Oni)",
+        "desc": "能看到附近窗戶、木板與可破壞牆壁的氣場，追逐時更容易判斷人類會往哪跑。",
+        "image": "assets/images/perks/killers/Oni/Zanshin Tactics.png",
+        "tags": [
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "call-of-brine",
+        "name": "海之喚",
+        "name_en": "Call of Brine",
+        "aliases": [
+            "貞子眼"
+        ],
+        "role": "killer",
+        "owner": "貞子 (Onryo)",
+        "desc": "破壞發電機後，該發電機倒退得更快並以黃色氣場標示；人類修理時打出好的技能檢定會發出聲音提示。",
+        "image": "assets/images/perks/killers/Onryo/Call of Brine.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "merciless-storm",
+        "name": "虐之颶",
+        "name_en": "Merciless Storm",
+        "aliases": [],
+        "role": "killer",
+        "owner": "貞子 (Onryo)",
+        "desc": "發電機修到很高進度時，修理的人類會遇到連續不斷的技能檢定，失敗或停手會讓發電機被封鎖。",
+        "image": "assets/images/perks/killers/Onryo/Merciless Storm.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "floods-of-rage",
+        "name": "天災鉤：怒之潮",
+        "name_en": "Scourge Hook: Floods of Rage",
+        "aliases": [
+            "貞子鉤"
+        ],
+        "role": "killer",
+        "owner": "貞子 (Onryo)",
+        "desc": "當人類從天災鉤上下來時，會短暫看到其他所有人類的氣場。",
+        "image": "assets/images/perks/killers/Onryo/Scourge Hook Floods of Rage.png",
+        "tags": [
+            "天災鉤",
+            "氣場"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "hangmans-trick",
+        "name": "行刑者的技巧",
+        "name_en": "Hangman's Trick",
+        "aliases": [],
+        "role": "killer",
+        "owner": "門徒 (The Pig)",
+        "desc": "開場有四個天災鉤；扛著人類時，能看到天災鉤附近人類的氣場，有人破壞鉤子時你會收到聲音提示。",
+        "image": "assets/images/perks/killers/Pig/Hangman_s Trick.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "make-your-choice",
+        "name": "做出你的選擇",
+        "name_en": "Make Your Choice",
+        "aliases": [
+            "天秤"
+        ],
+        "role": "killer",
+        "owner": "門徒 (The Pig)",
+        "desc": "人類在你離得很遠時救下隊友，會尖叫暴露位置，並陷入暴露狀態一段時間。",
+        "image": "assets/images/perks/killers/Pig/Make Your Choice.png",
+        "tags": [
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "surveillance",
+        "name": "了如指掌",
+        "name_en": "Surveillance",
+        "aliases": [],
+        "role": "killer",
+        "owner": "門徒 (The Pig)",
+        "desc": "被你破壞的發電機會以白色標示，有人重新開始修理時會變成黃色；人類修機的聲音也傳得更遠。",
+        "image": "assets/images/perks/killers/Pig/Surveillance.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "corrupt-intervention",
+        "name": "腐爛干預",
+        "name_en": "Corrupt Intervention",
+        "aliases": [
+            "開場封機"
+        ],
+        "role": "killer",
+        "owner": "瘟疫 (The Plague)",
+        "desc": "比賽開始時，離你最遠的三台發電機會被封鎖一段時間，人類無法修理。第一位人類被擊倒時效果提前結束。",
+        "image": "assets/images/perks/killers/Plague/Corrupt Intervention.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": [
+            {
+                "id": "pain-resonance",
+                "reason": "開場先封鎖遠處三台，掛人後再用痛苦共鳴炸機，前中期都在拖慢修機進度"
+            }
+        ]
+    },
+    {
+        "id": "dark-devotion",
+        "name": "黑暗奉獻",
+        "name_en": "Dark Devotion",
+        "aliases": [],
+        "role": "killer",
+        "owner": "瘟疫 (The Plague)",
+        "desc": "用普通攻擊擊中血祭品時，你的恐懼範圍會轉移到血祭品身上，你本人則變得無法被察覺。",
+        "image": "assets/images/perks/killers/Plague/Dark Devotion.png",
+        "tags": [
+            "血祭品",
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "infectious-fright",
+        "name": "恐懼傳染",
+        "name_en": "Infectious Fright",
+        "aliases": [
+            "恐傳"
+        ],
+        "role": "killer",
+        "owner": "瘟疫 (The Plague)",
+        "desc": "擊倒人類時，恐懼範圍內的其他人類會尖叫並暴露位置。",
+        "image": "assets/images/perks/killers/Plague/Infectious Fright.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "dying-light",
+        "name": "湮滅之光",
+        "name_en": "Dying Light",
+        "aliases": [
+            "油燈"
+        ],
+        "role": "killer",
+        "owner": "麥克爾麥爾斯 (Shape)",
+        "desc": "依代幣數量降低血祭品以外人類的修機與治療速度。",
+        "image": "assets/images/perks/killers/Shape/Dying Light.png",
+        "tags": [
+            "血祭品",
+            "反治療",
+            "反修機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "play-with-your-food",
+        "name": "不要玩弄食物",
+        "name_en": "Play With Your Food",
+        "aliases": [
+            "蜘蛛"
+        ],
+        "role": "killer",
+        "owner": "麥克爾麥爾斯 (Shape)",
+        "desc": "追逐血祭品後讓他逃走就獲得代幣，代幣越多你的移動速度越快，普通攻擊會消耗代幣。",
+        "image": "assets/images/perks/killers/Shape/Play With Your Food.png",
+        "tags": [
+            "血祭品",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "save-the-best-for-last",
+        "name": "把最好的留到最後",
+        "name_en": "Save the Best for Last",
+        "aliases": [
+            "快刀"
+        ],
+        "role": "killer",
+        "owner": "麥克爾麥爾斯 (Shape)",
+        "desc": "擊中非血祭品的人類時獲得代幣，代幣會縮短普通攻擊後的冷卻時間；擊中血祭品會失去代幣。",
+        "image": "assets/images/perks/killers/Shape/Save the Best for Last.png",
+        "tags": [
+            "血祭品",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "forced-hesitation",
+        "name": "強制減速",
+        "name_en": "Forced Hesitation",
+        "aliases": [],
+        "role": "killer",
+        "owner": "奇點 (The Singularity)",
+        "desc": "擊倒人類時，附近其他人類會陷入減速狀態。",
+        "image": "assets/images/perks/killers/Singularity/Forced Hesitation.png",
+        "tags": [
+            "減益",
+            "減速"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "genetic-limits",
+        "name": "基因控制",
+        "name_en": "Genetic Limits",
+        "aliases": [],
+        "role": "killer",
+        "owner": "奇點 (The Singularity)",
+        "desc": "人類受傷時會陷入疲勞狀態一段時間。",
+        "image": "assets/images/perks/killers/Singularity/Genetic Limits.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "machine-learning",
+        "name": "機器學習",
+        "name_en": "Machine Learning",
+        "aliases": [],
+        "role": "killer",
+        "owner": "奇點 (The Singularity)",
+        "desc": "被你破壞過的發電機會被標記；標記的發電機修好時，你會變得無法被察覺並加速一段時間。",
+        "image": "assets/images/perks/killers/Singularity/Machine Learning.png",
+        "tags": [
+            "增益",
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "game-afoot",
+        "name": "疾狩迅獵",
+        "name_en": "Game Afoot",
+        "aliases": [],
+        "role": "killer",
+        "owner": "顱骨販子 (The Skull Merchant)",
+        "desc": "你追最久並擊中的人類會成為血祭品；追逐血祭品時破壞牆壁或擊中對方會獲得短暫加速。",
+        "image": "assets/images/perks/killers/Skull Merchant/Game Afoot.png",
+        "tags": [
+            "血祭品",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "leverage",
+        "name": "漸入絕境",
+        "name_en": "Leverage",
+        "aliases": [],
+        "role": "killer",
+        "owner": "顱骨販子 (The Skull Merchant)",
+        "desc": "從鉤子救下隊友的人類，在一段時間內治療速度會降低。",
+        "image": "assets/images/perks/killers/Skull Merchant/Leverage.png",
+        "tags": [
+            "減益",
+            "反治療"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "thwack",
+        "name": "物破人驚",
+        "name_en": "THWACK",
+        "aliases": [
+            "框框作響"
+        ],
+        "role": "killer",
+        "owner": "顱骨販子 (The Skull Merchant)",
+        "desc": "開場有代幣；破壞牆壁或木板時消耗代幣，讓附近人類尖叫並暴露氣場，掛上人類可以補充代幣。",
+        "image": "assets/images/perks/killers/Skull Merchant/THWACK.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "scared-to-death",
+        "name": "厄咒：嚇死人",
+        "name_en": "Hex: Scared to Death",
+        "aliases": [],
+        "role": "killer",
+        "owner": "殺人魔 (The Slasher)",
+        "desc": "掛過三位不同的人類後生成厄咒圖騰；追逐中破壞木板時，附近的人類會尖叫並短暫減速。",
+        "image": "assets/images/perks/killers/Slasher/Hex Scared to Death.png",
+        "tags": [
+            "厄咒"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "rampage",
+        "name": "暴走",
+        "name_en": "Rampage",
+        "aliases": [],
+        "role": "killer",
+        "owner": "殺人魔 (The Slasher)",
+        "desc": "每破壞一次木板或牆壁就獲得代幣；被致盲或被木板砸暈時，依代幣數獲得短暫加速。",
+        "image": "assets/images/perks/killers/Slasher/Rampage.png",
+        "tags": [
+            "追逐",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "silent-shadow",
+        "name": "無聲暗影",
+        "name_en": "Silent Shadow",
+        "aliases": [],
+        "role": "killer",
+        "owner": "殺人魔 (The Slasher)",
+        "desc": "把人類掛上鉤子後短暫變得無法被察覺；大門通電後，整場比賽都會保持無法被察覺。",
+        "image": "assets/images/perks/killers/Slasher/Silent Shadow.png",
+        "tags": [
+            "隱蔽",
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "haunted-ground",
+        "name": "厄咒：鬧鬼之地",
+        "name_en": "Hex: Haunted Ground",
+        "aliases": [
+            "鬧鬼"
+        ],
+        "role": "killer",
+        "owner": "怨靈 (The Spirit)",
+        "desc": "開場生成兩個厄咒圖騰，其中一個被淨化時，所有人類會陷入暴露狀態一段時間。",
+        "image": "assets/images/perks/killers/Spirit/Hex Haunted Ground.png",
+        "tags": [
+            "厄咒",
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "rancor",
+        "name": "怒火沖天",
+        "name_en": "Rancor",
+        "aliases": [],
+        "role": "killer",
+        "owner": "怨靈 (The Spirit)",
+        "desc": "每修好一台發電機，血祭品會看到你的位置，你則會看到所有人類的氣場；發電機全修好後，血祭品陷入暴露，而且可以直接被你擊殺。",
+        "image": "assets/images/perks/killers/Spirit/Rancor.png",
+        "tags": [
+            "血祭品",
+            "情報",
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "spirit-fury",
+        "name": "暴怒怨靈",
+        "name_en": "Spirit Fury",
+        "aliases": [
+            "爆版"
+        ],
+        "role": "killer",
+        "owner": "怨靈 (The Spirit)",
+        "desc": "破壞一定數量的木板後，下一次被木板砸暈時，那塊木板會立刻碎掉。",
+        "image": "assets/images/perks/killers/Spirit/Spirit Fury.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "agitation",
+        "name": "欣喜若狂",
+        "name_en": "Agitation",
+        "aliases": [
+            "大嘴"
+        ],
+        "role": "killer",
+        "owner": "陷阱殺手 (The Trapper)",
+        "desc": "扛著人類時移動速度提升，恐懼範圍也會擴大。",
+        "image": "assets/images/perks/killers/Trapper/Agitation.png",
+        "tags": [
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "brutal-strength",
+        "name": "所向無敵",
+        "name_en": "Brutal Strength",
+        "aliases": [
+            "快踹"
+        ],
+        "role": "killer",
+        "owner": "陷阱殺手 (The Trapper)",
+        "desc": "破壞木板、牆壁和發電機的速度變快。",
+        "image": "assets/images/perks/killers/Trapper/Brutal Strength.png",
+        "tags": [
+            "追逐",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "unnerving-presence",
+        "name": "恐慌降臨",
+        "name_en": "Unnerving Presence",
+        "aliases": [],
+        "role": "killer",
+        "owner": "陷阱殺手 (The Trapper)",
+        "desc": "恐懼範圍內的人類修機或治療時，技能檢定更常出現，判定範圍也更小。",
+        "image": "assets/images/perks/killers/Trapper/Unnerving Presence.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "crowd-control",
+        "name": "厄咒：群眾控制",
+        "name_en": "Hex: Crowd Control",
+        "aliases": [],
+        "role": "killer",
+        "owner": "騙術師 (The Trickster)",
+        "desc": "人類快速翻越窗戶後，那扇窗戶會被惡靈封鎖一段時間。",
+        "image": "assets/images/perks/killers/Trickster/Hex Crowd Control.png",
+        "tags": [
+            "厄咒",
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "no-way-out",
+        "name": "無路可逃",
+        "name_en": "No Way Out",
+        "aliases": [
+            "封開關"
+        ],
+        "role": "killer",
+        "owner": "騙術師 (The Trickster)",
+        "desc": "每掛上一位不同的人類就獲得代幣；大門通電後，第一位碰觸開關的人類會讓兩個開關都被封鎖，代幣越多封鎖越久。",
+        "image": "assets/images/perks/killers/Trickster/No Way Out.png",
+        "tags": [
+            "終局"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "starstruck",
+        "name": "追星",
+        "name_en": "Starstruck",
+        "aliases": [],
+        "role": "killer",
+        "owner": "騙術師 (The Trickster)",
+        "desc": "扛著人類時，進入恐懼範圍的人類會陷入暴露狀態，放下人類後效果還會持續一段時間。",
+        "image": "assets/images/perks/killers/Trickster/Starstruck.png",
+        "tags": [
+            "減益",
+            "暴露"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "coup-de-grace",
+        "name": "恩賜解脫",
+        "name_en": "Coup de Grace",
+        "aliases": [
+            "超長刀"
+        ],
+        "role": "killer",
+        "owner": "雙胞胎 (The Twins)",
+        "desc": "每修好一台發電機就獲得代幣，消耗代幣讓下一次撲擊攻擊距離增加。",
+        "image": "assets/images/perks/killers/Twins/Coup de Grace.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "hoarder",
+        "name": "囤積者",
+        "name_en": "Hoarder",
+        "aliases": [],
+        "role": "killer",
+        "owner": "雙胞胎 (The Twins)",
+        "desc": "人類在你附近撿起道具或打開寶箱時，你會收到聲音提示。",
+        "image": "assets/images/perks/killers/Twins/Hoarder.png",
+        "tags": [
+            "情報"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "oppression",
+        "name": "壓制",
+        "name_en": "Oppression",
+        "aliases": [],
+        "role": "killer",
+        "owner": "雙胞胎 (The Twins)",
+        "desc": "破壞發電機時，另外幾台正在修理的發電機也會一起開始倒退，修理的人類會遇到很難的技能檢定。",
+        "image": "assets/images/perks/killers/Twins/Oppression.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "unbound",
+        "name": "掙脫綁定",
+        "name_en": "Unbound",
+        "aliases": [
+            "無束"
+        ],
+        "role": "killer",
+        "owner": "神秘人 (The Unknown)",
+        "desc": "人類受傷後的一段時間內，你翻越窗戶會獲得短暫加速。",
+        "image": "assets/images/perks/killers/Unknown/Unbound.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "undone",
+        "name": "再接再厲",
+        "name_en": "Undone",
+        "aliases": [
+            "無效"
+        ],
+        "role": "killer",
+        "owner": "神秘人 (The Unknown)",
+        "desc": "每次掛上人類就獲得代幣；破壞發電機時消耗代幣，讓發電機損失更多進度並被短暫封鎖，之後開始倒退。",
+        "image": "assets/images/perks/killers/Unknown/Undone.png",
+        "tags": [
+            "控機"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "unforeseen",
+        "name": "出乎意料",
+        "name_en": "Unforeseen",
+        "aliases": [
+            "無跡"
+        ],
+        "role": "killer",
+        "owner": "神秘人 (The Unknown)",
+        "desc": "破壞發電機後，你的恐懼範圍會轉移到那台發電機上，你本人則變得無法被察覺。",
+        "image": "assets/images/perks/killers/Unknown/Unforeseen.png",
+        "tags": [
+            "隱蔽"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "bloodhound",
+        "name": "血氣追蹤",
+        "name_en": "Bloodhound",
+        "aliases": [],
+        "role": "killer",
+        "owner": "幽靈殺手 (The Wraith)",
+        "desc": "人類留下的血跡變得更鮮紅、更明顯，也會停留更久。",
+        "image": "assets/images/perks/killers/Wraith/Bloodhound.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "predator",
+        "name": "窮追不捨",
+        "name_en": "Predator",
+        "aliases": [],
+        "role": "killer",
+        "owner": "幽靈殺手 (The Wraith)",
+        "desc": "追逐中跟丟人類時，會短暫看到他的氣場。",
+        "image": "assets/images/perks/killers/Wraith/Predator.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "shadowborn",
+        "name": "暗夜之睛",
+        "name_en": "Shadowborn",
+        "aliases": [],
+        "role": "killer",
+        "owner": "幽靈殺手 (The Wraith)",
+        "desc": "被手電筒等致盲時，你會獲得短暫加速。",
+        "image": "assets/images/perks/killers/Wraith/Shadowborn.png",
+        "tags": [],
+        "synergies": []
+    },
+    {
+        "id": "alien-instinct",
+        "name": "異形本能",
+        "name_en": "Alien Instinct",
+        "aliases": [],
+        "role": "killer",
+        "owner": "異形 (The Xenomorph)",
+        "desc": "掛上人類時，會短暫看到最遠的受傷人類氣場，對方也會陷入渾然不覺。",
+        "image": "assets/images/perks/killers/Xenomorph/Alien Instinct.png",
+        "tags": [
+            "氣場",
+            "減益",
+            "渾然不覺"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "rapid-brutality",
+        "name": "迅猛暴虐",
+        "name_en": "Rapid Brutality",
+        "aliases": [
+            "為殺而殺"
+        ],
+        "role": "killer",
+        "owner": "異形 (The Xenomorph)",
+        "desc": "無法獲得嗜血狀態，但每次普通攻擊命中都會獲得短暫加速。",
+        "image": "assets/images/perks/killers/Xenomorph/Rapid Brutality.png",
+        "tags": [
+            "追逐",
+            "增益"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "ultimate-weapon",
+        "name": "終極武器",
+        "name_en": "Ultimate Weapon",
+        "aliases": [
+            "開櫃尖叫"
+        ],
+        "role": "killer",
+        "owner": "異形 (The Xenomorph)",
+        "desc": "搜索置物櫃時，附近的人類會尖叫、暴露位置，並陷入障目狀態。",
+        "image": "assets/images/perks/killers/Xenomorph/Ultimate Weapon.png",
+        "tags": [
+            "情報",
+            "減益",
+            "障目"
+        ],
+        "synergies": []
+    }
+]

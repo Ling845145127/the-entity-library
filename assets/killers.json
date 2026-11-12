@@ -1,0 +1,1041 @@
+[
+    {
+        "id": "trapper",
+        "folder": "Trapper",
+        "name": "陷阱殺手 (The Trapper)",
+        "aliases": [
+            "夾子鬼"
+        ],
+        "icon": "assets/images/chara/killers/Trapper.png",
+        "portrait": "assets/images/chara/killers/Trapper.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "捕獸夾 (Bear Trap)",
+        "power_desc": "可以撿起並在地圖上放置捕獸夾。人類踩到會被夾住受傷，掙脫前無法移動，你可以趁機過去把他抓起。\n陷阱要擺在窗戶、木板旁或草叢等人類常經過的地方才有效。",
+        "power_icon": "assets/images/chara/killers/powers/Trapper/Bear Trap.png",
+        "stats": [
+            2,
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "wraith",
+        "folder": "Wraith",
+        "name": "幽靈殺手 (The Wraith)",
+        "aliases": [
+            "隱鬼",
+            "噹噹",
+            "幽靈"
+        ],
+        "icon": "assets/images/chara/killers/Wraith.png",
+        "portrait": "assets/images/chara/killers/Wraith.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "悲鳴之鐘",
+        "power_desc": "敲擊鐘聲後進入隱身狀態。隱身時移動速度提升至 6.0 m/s，恐懼範圍降為 0，且幾乎完全隱形。現形後會獲得短暫的衝刺爆發效果。",
+        "power_icon": "assets/images/chara/killers/powers/Wraith/Wailing Bell.png",
+        "stats": [
+            2,
+            4,
+            3,
+            2,
+            5
+        ]
+    },
+    {
+        "id": "hillbilly",
+        "folder": "Hillbilly",
+        "name": "電鋸殺手 (The Hillbilly)",
+        "aliases": [
+            "比利",
+            "農場主"
+        ],
+        "icon": "assets/images/chara/killers/Hillbilly.png",
+        "portrait": "assets/images/chara/killers/Hillbilly.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "40m",
+        "size": "高",
+        "power_name": "電鋸 (Chainsaw)",
+        "power_desc": "蓄力後拉動電鋸高速衝刺，撞到人類會直接讓他倒地。\n衝刺時轉彎困難，撞到牆壁會被打斷；電鋸用太多會過熱。高速衝刺也很適合用來快速巡場。",
+        "power_icon": "assets/images/chara/killers/powers/Hillbilly/Chainsaw.png",
+        "stats": [
+            4,
+            5,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "nurse",
+        "folder": "Nurse",
+        "name": "護士 (The Nurse)",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Nurse.png",
+        "portrait": "assets/images/chara/killers/Nurse.png",
+        "speed": "3.8 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "史賓塞的最後一口氣 (Spencer's Last Breath)",
+        "power_desc": "可以蓄力瞬移，穿過牆壁、木板甚至上下樓層，連續瞬移後會短暫疲勞。\n瞬移無視地形，人類的木板和窗戶幾乎沒用，但需要大量練習才能抓準距離，是公認最難上手也最強的殺手之一。",
+        "power_icon": "assets/images/chara/killers/powers/Nurse/Spencer_s Last Breath.png",
+        "stats": [
+            5,
+            3,
+            1,
+            1,
+            2
+        ]
+    },
+    {
+        "id": "shape",
+        "folder": "Shape",
+        "name": "麥克爾麥爾斯 (Shape)",
+        "aliases": [
+            "麥麥",
+            "麥叔"
+        ],
+        "icon": "assets/images/chara/killers/Shape.png",
+        "portrait": "assets/images/chara/killers/Shape.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "依階段變化",
+        "size": "高",
+        "power_name": "心中的惡魔 (Evil Within)",
+        "power_desc": "靠「凝視」人類累積力量，分為三個階段。\n第一階段恐懼範圍很小、移動較慢，幾乎察覺不到；第二階段恢復正常；第三階段普通攻擊可以讓人類直接倒地，但只能維持一段時間。",
+        "power_icon": "assets/images/chara/killers/powers/Shape/Evil Within.png",
+        "stats": [
+            4,
+            2,
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "id": "hag",
+        "folder": "Hag",
+        "name": "妖巫 (The Hag)",
+        "aliases": [
+            "妖婆",
+            "奶奶"
+        ],
+        "icon": "assets/images/chara/killers/Hag.png",
+        "portrait": "assets/images/chara/killers/Hag.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "黑化催化劑 (Blackened Catalyst)",
+        "power_desc": "可以在地上畫下陷阱符文，人類踩到會觸發幻影，你可以瞬間傳送到那個陷阱的位置。\n適合把陷阱佈置在發電機和鉤子周圍，守住重要區域。",
+        "power_icon": "assets/images/chara/killers/powers/Hag/Blackened Catalyst.png",
+        "stats": [
+            2,
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "doctor",
+        "folder": "Doctor",
+        "name": "醫生 (The Doctor)",
+        "aliases": [
+            "楊永信"
+        ],
+        "icon": "assets/images/chara/killers/Doctor.png",
+        "portrait": "assets/images/chara/killers/Doctor.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "卡特的電擊 (Carter's Spark)",
+        "power_desc": "可以放出電擊或大範圍電擊波，讓人類累積瘋狂值。\n瘋狂的人類會尖叫暴露位置、看到幻覺，技能檢定也會變難，必須花時間平復情緒。",
+        "power_icon": "assets/images/chara/killers/powers/Doctor/Carter_s Spark.png",
+        "stats": [
+            3,
+            2,
+            3,
+            4,
+            2
+        ]
+    },
+    {
+        "id": "huntress",
+        "folder": "Huntress",
+        "name": "女獵手 (The Huntress)",
+        "aliases": [
+            "兔女"
+        ],
+        "icon": "assets/images/chara/killers/Huntress.png",
+        "portrait": "assets/images/chara/killers/Huntress.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "20m",
+        "size": "高",
+        "power_name": "狩獵手斧 (Hunting Hatchet)",
+        "power_desc": "可以蓄力投擲手斧遠距離攻擊人類，蓄力越久飛得越遠。\n手斧數量有限，用完要到置物櫃補充。她哼歌的聲音會讓人類提早察覺她靠近。",
+        "power_icon": "assets/images/chara/killers/powers/Huntress/Hunting Hatchet.png",
+        "stats": [
+            3,
+            1,
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "id": "cannibal",
+        "folder": "Cannibal",
+        "name": "食人魔 (The Cannibal)",
+        "aliases": [
+            "皮臉",
+            "巴布"
+        ],
+        "icon": "assets/images/chara/killers/Cannibal.png",
+        "portrait": "assets/images/chara/killers/Cannibal.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "巴布的電鋸 (Bubba's Chainsaw)",
+        "power_desc": "揮舞電鋸往前衝刺，碰到的人類會直接倒地，還能一路揮舞追擊附近的多位人類。\n電鋸撞到障礙物會進入暴怒狀態，原地亂揮一陣子。",
+        "power_icon": "assets/images/chara/killers/powers/Cannibal/Bubba_s Chainsaw.png",
+        "stats": [
+            4,
+            2,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "nightmare",
+        "folder": "Nightmare",
+        "name": "夢魘 (The Nightmare)",
+        "aliases": [
+            "佛萊迪"
+        ],
+        "icon": "assets/images/chara/killers/Nightmare.png",
+        "portrait": "assets/images/chara/killers/Nightmare.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "夢境惡魔 (Dream Demon)",
+        "power_desc": "可以把人類拉進夢境，夢中的人類看不到你在哪、會看到幻象。\n在夢境中可以放下夢境陷阱或假木板，也能傳送到發電機附近。人類要靠鬧鐘或互相叫醒才能離開夢境。",
+        "power_icon": "assets/images/chara/killers/powers/Nightmare/Dream Demon.png",
+        "stats": [
+            2,
+            3,
+            2,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "pig",
+        "folder": "Pig",
+        "name": "門徒 (The Pig)",
+        "aliases": [
+            "小豬",
+            "豬女"
+        ],
+        "icon": "assets/images/chara/killers/Pig.png",
+        "portrait": "assets/images/chara/killers/Pig.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "拼圖的洗禮 (Jigsaw's Baptism)",
+        "power_desc": "可以蹲下潛行，從暗處發動突襲衝刺。\n擊倒的人類會被戴上倒數計時的捕獸頭套，必須到拼圖盒找到鑰匙解開，否則時間到就會死亡。",
+        "power_icon": "assets/images/chara/killers/powers/Pig/Jigsaw_s Baptism.png",
+        "stats": [
+            2,
+            2,
+            3,
+            2,
+            5
+        ]
+    },
+    {
+        "id": "clown",
+        "folder": "Clown",
+        "name": "小丑 (The Clown)",
+        "aliases": [
+            "閃電俠"
+        ],
+        "icon": "assets/images/chara/killers/Clown.png",
+        "portrait": "assets/images/chara/killers/Clown.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "謝幕藥劑 (Afterpiece Tonic)",
+        "power_desc": "可以投擲兩種藥瓶：紫色毒氣會讓人類視線模糊、移動變慢並咳嗽暴露位置；黃色解藥則讓範圍內的人（包含自己）加速。\n靠藥瓶封鎖路線，在追逐中拉近距離。",
+        "power_icon": "assets/images/chara/killers/powers/Clown/Afterpiece Tonic.png",
+        "stats": [
+            3,
+            3,
+            1,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "spirit",
+        "folder": "Spirit",
+        "name": "怨靈 (The Spirit)",
+        "aliases": [
+            "凜"
+        ],
+        "icon": "assets/images/chara/killers/Spirit.png",
+        "portrait": "assets/images/chara/killers/Spirit.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "山岡的作祟 (Yamaoka's Haunting)",
+        "power_desc": "發動後進入相位行走，高速移動且人類看不到你，但你也看不到人類，只能靠聲音和抓痕判斷位置。\n原地留下的軀殼會讓人類誤以為你還在那裡。",
+        "power_icon": "assets/images/chara/killers/powers/Spirit/Yamaoka_s Haunting.png",
+        "stats": [
+            4,
+            1,
+            1,
+            1,
+            3
+        ]
+    },
+    {
+        "id": "legion",
+        "folder": "Legion",
+        "name": "軍團 (The Legion)",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Legion.png",
+        "portrait": "assets/images/chara/killers/Legion.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "野性狂暴 (Feral Frenzy)",
+        "power_desc": "發動後高速奔跑、翻窗更快，命中會讓人類陷入深度傷口，必須在時間內自我包紮，否則會倒地。\n狂暴期間無法直接擊倒人類，適合快速把全隊打傷、拖慢節奏。",
+        "power_icon": "assets/images/chara/killers/powers/Legion/Feral Frenzy.png",
+        "stats": [
+            2,
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "id": "plague",
+        "folder": "Plague",
+        "name": "瘟疫 (The Plague)",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Plague.png",
+        "portrait": "assets/images/chara/killers/Plague.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "邪惡嘔吐 (Vile Purge)",
+        "power_desc": "可以向人類嘔吐使其感染，感染者會咳嗽暴露位置，病情加重後無法被治療。\n人類可以到淨化池淨化，但淨化後你能吸收池水，獲得遠距離的腐蝕之火，直接打傷人類。",
+        "power_icon": "assets/images/chara/killers/powers/Plague/Vile Purge.png",
+        "stats": [
+            3,
+            2,
+            5,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "ghostface",
+        "folder": "Ghostface",
+        "name": "鬼臉 (The Ghostface)",
+        "aliases": [
+            "黑色塑膠袋"
+        ],
+        "icon": "assets/images/chara/killers/Ghostface.png",
+        "portrait": "assets/images/chara/killers/Ghostface.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "夜幕 (Night Shroud)",
+        "power_desc": "發動後進入隱匿狀態，沒有心跳也沒有紅光。\n隱匿時偷看人類一段時間，就能讓他陷入暴露（一刀倒地）；但如果被人類發現並揭穿，隱匿就會中斷。",
+        "power_icon": "assets/images/chara/killers/powers/Ghostface/Night Shroud.png",
+        "stats": [
+            2,
+            2,
+            2,
+            2,
+            4
+        ]
+    },
+    {
+        "id": "demogorgon",
+        "folder": "Demogorgon",
+        "name": "魔神 (The Demogorgon)",
+        "aliases": [
+            "魔王",
+            "花花"
+        ],
+        "icon": "assets/images/chara/killers/Demogorgon.png",
+        "portrait": "assets/images/chara/killers/Demogorgon.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "深淵之下 (Of the Abyss)",
+        "power_desc": "可以在地圖上開啟傳送門並在傳送門之間移動，也能蓄力發動「撕裂」向前猛撲攻擊。\n傳送門附近的人類會被你感應到，人類則可以把傳送門封住。",
+        "power_icon": "assets/images/chara/killers/powers/Demogorgon/Of the Abyss.png",
+        "stats": [
+            3,
+            4,
+            3,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "oni",
+        "folder": "Oni",
+        "name": "鬼武士 (Oni)",
+        "aliases": [
+            "歐尼醬"
+        ],
+        "icon": "assets/images/chara/killers/Oni.png",
+        "portrait": "assets/images/chara/killers/Oni.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "血之怒 (Blood Fury)",
+        "power_desc": "人類受傷時會留下血球，吸收血球累積力量後進入血怒狀態。\n血怒時可以高速衝刺，攻擊能直接讓人類倒地，很適合打亂人類節奏。",
+        "power_icon": "assets/images/chara/killers/powers/Oni/Blood Fury.png",
+        "stats": [
+            3,
+            3,
+            2,
+            2,
+            1
+        ]
+    },
+    {
+        "id": "deathslinger",
+        "folder": "Deathslinger",
+        "name": "死亡槍手 (The Deathslinger)",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Deathslinger.png",
+        "portrait": "assets/images/chara/killers/Deathslinger.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "救贖者 (The Redeemer)",
+        "power_desc": "用魚叉槍遠距離射擊人類，命中後可以把他拉到身邊攻擊；人類可以掙扎或撞上障礙物脫離。\n每次射擊後都要重新上膛，瞄準技術決定強度。",
+        "power_icon": "assets/images/chara/killers/powers/Deathslinger/The Redeemer.png",
+        "stats": [
+            3,
+            1,
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "id": "executioner",
+        "folder": "Executioner",
+        "name": "處刑者 (The Executioner)",
+        "aliases": [
+            "三角頭"
+        ],
+        "icon": "assets/images/chara/killers/Executioner.png",
+        "portrait": "assets/images/chara/killers/Executioner.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "審判儀式 (Rites of Judgement)",
+        "power_desc": "在地面畫出折磨之路，踩到的人類會陷入折磨狀態並暴露位置。\n被折磨的人類倒地後可以直接送進審判囚籠，不必扛去鉤子；也能發動穿牆的遠距離攻擊「懲罰之刃」。",
+        "power_icon": "assets/images/chara/killers/powers/Executioner/Rites of Judgement.png",
+        "stats": [
+            3,
+            2,
+            2,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "blight",
+        "folder": "Blight",
+        "name": "枯魔 (The Blight)",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Blight.png",
+        "portrait": "assets/images/chara/killers/Blight.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "40m",
+        "size": "中",
+        "power_name": "枯萎之力 (Blighted Corruption)",
+        "power_desc": "發動後高速衝刺，撞到牆壁可以轉向繼續衝刺，衝刺中可以發動猛撲攻擊。\n速度極快、上限很高，但需要練習熟悉撞牆的角度與時機。",
+        "power_icon": "assets/images/chara/killers/powers/Blight/Blighted Corruption.png",
+        "stats": [
+            5,
+            5,
+            1,
+            2,
+            1
+        ]
+    },
+    {
+        "id": "twins",
+        "folder": "Twins",
+        "name": "雙胞胎 (The Twins)",
+        "aliases": [
+            "連體嬰",
+            "陰靈戰車"
+        ],
+        "icon": "assets/images/chara/killers/Twins.png",
+        "portrait": "assets/images/chara/killers/Twins.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "血之羈絆 (Blood Bond)",
+        "power_desc": "姐姐夏洛特可以放出弟弟維克多，操控他快速追擊並撲倒人類。\n維克多會黏在倒地的人類身上守住他，夏洛特再趁機過來撿人；人類可以把維克多踢開。",
+        "power_icon": "assets/images/chara/killers/powers/Twins/Blood Bond.png",
+        "stats": [
+            3,
+            2,
+            3,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "trickster",
+        "folder": "Trickster",
+        "name": "騙術師 (The Trickster)",
+        "aliases": [
+            "歐爸"
+        ],
+        "icon": "assets/images/chara/killers/Trickster.png",
+        "portrait": "assets/images/chara/killers/Trickster.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "壓軸秀 (Showstopper)",
+        "power_desc": "可以連續投擲飛刀，命中累積到一定數量時人類就會受傷。\n累積足夠能量後可以發動「主秀時刻」，在一段時間內無限投擲飛刀。",
+        "power_icon": "assets/images/chara/killers/powers/Trickster/Showstopper Throw State.png",
+        "stats": [
+            3,
+            1,
+            1,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "nemesis",
+        "folder": "Nemesis",
+        "name": "追跡者 (The Nemesis)",
+        "aliases": [
+            "復仇女神"
+        ],
+        "icon": "assets/images/chara/killers/Nemesis.png",
+        "portrait": "assets/images/chara/killers/Nemesis.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "T 病毒 (T-Virus)",
+        "power_desc": "用觸手攻擊讓人類感染，已感染的人類再被觸手擊中就會受傷；擊中次數越多，觸手會升級得更長。\n地圖上還會出現殭屍，幫你騷擾和攻擊人類。",
+        "power_icon": "assets/images/chara/killers/powers/Nemesis/T-Virus 1.png",
+        "stats": [
+            3,
+            2,
+            2,
+            4,
+            2
+        ]
+    },
+    {
+        "id": "cenobite",
+        "folder": "Cenobite",
+        "name": "地獄修士 (The Cenobite)",
+        "aliases": [
+            "釘子頭"
+        ],
+        "icon": "assets/images/chara/killers/Cenobite.png",
+        "portrait": "assets/images/chara/killers/Cenobite.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "苦痛召喚 (Summons of Pain)",
+        "power_desc": "可以遠距離召喚鎖鏈纏住人類，被纏住的人類移動會變慢。\n地圖上會出現魔方謎盒，人類必須解開，否則你可以召喚鎖鏈纏住所有人類。",
+        "power_icon": "assets/images/chara/killers/powers/Cenobite/Summons of Pain.png",
+        "stats": [
+            3,
+            2,
+            3,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "artist",
+        "folder": "Artist",
+        "name": "藝術家 (The Artist)",
+        "aliases": [
+            "鳥人",
+            "鳥姊"
+        ],
+        "icon": "assets/images/chara/killers/Artist.png",
+        "portrait": "assets/images/chara/killers/Artist.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "折磨之鳥 (Birds of Torment)",
+        "power_desc": "可以放出烏鴉群，穿過牆壁飛向前方；被烏鴉碰到的人類會被纏上，再被碰一次就會受傷。\n能在遠處同時騷擾多台發電機，控場與追逐兩頭兼顧。",
+        "power_icon": "assets/images/chara/killers/powers/Artist/Birds of Torment.png",
+        "stats": [
+            3,
+            2,
+            3,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "onryo",
+        "folder": "Onryo",
+        "name": "貞子 (Onryo)",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Onryo.png",
+        "portrait": "assets/images/chara/killers/Onryo.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "24m",
+        "size": "小",
+        "power_name": "現形 (Manifestation)",
+        "power_desc": "可以在地圖上的電視之間傳送，並讓附近的人類累積詛咒，詛咒滿了就可以直接被擊殺。\n人類可以拿走錄影帶放回電視來解除詛咒。隱身狀態下她更難被察覺。",
+        "power_icon": "assets/images/chara/killers/powers/Onryo/Manifestation.png",
+        "stats": [
+            3,
+            4,
+            4,
+            3,
+            4
+        ]
+    },
+    {
+        "id": "dredge",
+        "folder": "Dredge",
+        "name": "淤神 (The Dredge)",
+        "aliases": [
+            "影魔",
+            "櫃子鬼"
+        ],
+        "icon": "assets/images/chara/killers/Dredge.png",
+        "portrait": "assets/images/chara/killers/Dredge.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "黑暗統治 (Reign of Darkness)",
+        "power_desc": "可以在置物櫃之間傳送。\n比賽中會週期性降下黑夜，黑夜時人類視野變差、你的能力增強；人類可以鎖上置物櫃阻止你傳送。",
+        "power_icon": "assets/images/chara/killers/powers/Dredge/Reign of Darkness.png",
+        "stats": [
+            3,
+            4,
+            3,
+            4,
+            2
+        ]
+    },
+    {
+        "id": "mastermind",
+        "folder": "Mastermind",
+        "name": "首腦 (The Mastermind)",
+        "aliases": [
+            "威斯卡",
+            "威哥"
+        ],
+        "icon": "assets/images/chara/killers/Mastermind.png",
+        "portrait": "assets/images/chara/killers/Mastermind.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "40m",
+        "size": "中",
+        "power_name": "毒性束縛 (Virulent Bound)",
+        "power_desc": "可以連續向前猛撲，越過障礙追擊人類，撲中會讓人類感染病毒。\n病毒嚴重的人類可以被你抓住並甩向牆壁，造成傷害。",
+        "power_icon": "assets/images/chara/killers/powers/Mastermind/Virulent Bound.png",
+        "stats": [
+            4,
+            3,
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "id": "knight",
+        "folder": "Knight",
+        "name": "惡騎士 (The Knight)",
+        "aliases": [
+            "274"
+        ],
+        "icon": "assets/images/chara/killers/Knight.png",
+        "portrait": "assets/images/chara/killers/Knight.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "守衛同盟 (Guardia Compagnia)",
+        "power_desc": "畫出一段路徑後召喚三種守衛之一（獄卒、刺客、劊子手），守衛會沿路徑巡邏並追擊人類，抓到就會讓人類受傷。\n人類可以躲開守衛讓他消失。也能讓守衛破壞發電機和木板。",
+        "power_icon": "assets/images/chara/killers/powers/Knight/Guardia Compagnia.png",
+        "stats": [
+            2,
+            3,
+            5,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "skull-merchant",
+        "folder": "Skull Merchant",
+        "name": "顱骨販子 (The Skull Merchant)",
+        "aliases": [
+            "白骨女商人"
+        ],
+        "icon": "assets/images/chara/killers/Skull Merchant.png",
+        "portrait": "assets/images/chara/killers/Skull Merchant.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "天空之眼 (Eyes in the Sky)",
+        "power_desc": "可以放置無人機監視一塊區域，人類進入掃描範圍會被偵測並暴露位置。\n被偵測多次的人類會受到懲罰，更容易被你找到和擊倒。",
+        "power_icon": "assets/images/chara/killers/powers/Skull Merchant/Eyes in the Sky.png",
+        "stats": [
+            2,
+            2,
+            3,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "singularity",
+        "folder": "Singularity",
+        "name": "奇異者 (The Singularity)",
+        "aliases": [
+            "奇點"
+        ],
+        "icon": "assets/images/chara/killers/Singularity.png",
+        "portrait": "assets/images/chara/killers/Singularity.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "量子具現化 (Quantum Instantiation)",
+        "power_desc": "可以發射晶片黏在人類或物件上，透過晶片看到附近的人類，並瞬移到被標記的人類身邊。\n人類可以使用地圖上的 EMP 解除晶片。",
+        "power_icon": "assets/images/chara/killers/powers/Singularity/Quantum Instantiation.png",
+        "stats": [
+            3,
+            2,
+            4,
+            5,
+            2
+        ]
+    },
+    {
+        "id": "xenomorph",
+        "folder": "Xenomorph",
+        "name": "異形 (The Xenomorph)",
+        "aliases": [
+            "外星小狗"
+        ],
+        "icon": "assets/images/chara/killers/Xenomorph.png",
+        "portrait": "assets/images/chara/killers/Xenomorph.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "隱匿追擊 (Hidden Pursuit)",
+        "power_desc": "可以鑽進地圖各處的隧道快速移動並偵測附近人類；在地面時能用尾巴攻擊稍遠的人類。\n人類可以放置火焰炮塔把你逼出狀態。",
+        "power_icon": "assets/images/chara/killers/powers/Xenomorph/Hidden Pursuit Active.png",
+        "stats": [
+            4,
+            4,
+            3,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "good-guy",
+        "folder": "Good Guy",
+        "name": "好孩子娃娃 (The Good Guy)",
+        "aliases": [
+            "恰吉"
+        ],
+        "icon": "assets/images/chara/killers/Good Guy.png",
+        "portrait": "assets/images/chara/killers/Good Guy.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "32m",
+        "size": "小",
+        "power_name": "遊戲結束 (Playtime's Over)",
+        "power_desc": "可以進入「躲貓貓模式」變得無法被察覺，接著發動快速衝刺「切切切」襲擊人類。\n體型非常小，人類很難從遠處發現你。",
+        "power_icon": "assets/images/chara/killers/powers/Good Guy/Playtime_s Over.png",
+        "stats": [
+            3,
+            1,
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "id": "unknown",
+        "folder": "Unknown",
+        "name": "神秘人 (The Unknown)",
+        "aliases": [
+            "偽人",
+            "德懷特"
+        ],
+        "icon": "assets/images/chara/killers/Unknown.png",
+        "portrait": "assets/images/chara/killers/Unknown.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "UVX",
+        "power_desc": "可以發射 UVX 光球，命中的人類會變虛弱，再被攻擊就會受傷。\n還能製造幻覺分身並瞬移到分身的位置，人類可以揭穿幻覺讓它消失。",
+        "power_icon": "assets/images/chara/killers/powers/Unknown/UVX.png",
+        "stats": [
+            3,
+            3,
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "lich",
+        "folder": "Lich",
+        "name": "巫妖 (The Lich)",
+        "aliases": [
+            "威可納"
+        ],
+        "icon": "assets/images/chara/killers/Lich.png",
+        "portrait": "assets/images/chara/killers/Lich.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "邪惡黑暗 (Vile Darkness)",
+        "power_desc": "可以施放多種魔法：飛行快速移動、法師之手關閉木板或窗戶、驅散之球偵測人類等。\n地圖上也會出現魔法道具，人類撿到後可以對抗你。",
+        "power_icon": "assets/images/chara/killers/powers/Lich/Vile Darkness Fly.png",
+        "stats": [
+            4,
+            4,
+            2,
+            4,
+            2
+        ]
+    },
+    {
+        "id": "dark-lord",
+        "folder": "Dark Lord",
+        "name": "黑暗領主 (The Dark Lord)",
+        "aliases": [
+            "德古拉",
+            "吸血鬼"
+        ],
+        "icon": "assets/images/chara/killers/Dark Lord.png",
+        "portrait": "assets/images/chara/killers/Dark Lord.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "吸血鬼轉換 (Vampiric Shift)",
+        "power_desc": "可以在三種型態之間切換：吸血鬼型態能施放地獄火攻擊，狼型態能追蹤人類並猛撲，蝙蝠型態能快速飛行移動。\n依情況切換型態，巡場與追逐都很全面。",
+        "power_icon": "assets/images/chara/killers/powers/Dark Lord/Cast Hellfire.png",
+        "stats": [
+            4,
+            4,
+            2,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "houndmaster",
+        "folder": "Houndmaster",
+        "name": "訓犬師 (The Houndmaster)",
+        "aliases": [
+            "狗媽",
+            "黑大媽"
+        ],
+        "icon": "assets/images/chara/killers/Houndmaster.png",
+        "portrait": "assets/images/chara/killers/Houndmaster.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "獵犬指令 (Dash Command)",
+        "power_desc": "可以指揮獵犬衝刺追擊人類，獵犬咬住人類後會把他拖向你。\n也能命令獵犬守在附近搜索，發現人類時提醒你。",
+        "power_icon": "assets/images/chara/killers/powers/Houndmaster/Dash Command.png",
+        "stats": [
+            3,
+            3,
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "ghoul",
+        "folder": "Ghoul",
+        "name": "食屍鬼 (The Ghoul)",
+        "aliases": [
+            "金木研"
+        ],
+        "icon": "assets/images/chara/killers/Ghoul.png",
+        "portrait": "assets/images/chara/killers/Ghoul.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "40m",
+        "size": "高",
+        "power_name": "赫子飛撲 (Kagune Leap)",
+        "power_desc": "用赫子射向人類或地形並快速飛撲過去，命中人類會標記並造成傷害，還能連續飛撲追擊。\n連續使用會進入暴走模式，速度更快但更難控制。",
+        "power_icon": "assets/images/chara/killers/powers/Ghoul/Fire Kagune Leap.png",
+        "stats": [
+            3,
+            5,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "id": "animatronic",
+        "folder": "Animatronic",
+        "name": "機械玩偶 (Animatronic)",
+        "aliases": [
+            "彈簧陷阱",
+            "老威"
+        ],
+        "icon": "assets/images/chara/killers/Animatronic.png",
+        "portrait": "assets/images/chara/killers/Animatronic.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "24m",
+        "size": "中",
+        "power_name": "佛萊迪的恐怖屋 (Fazbear's Fright)",
+        "power_desc": "可以蓄力投擲消防斧打傷人類，斧頭卡在人類身上時會讓他陷入不治與渾然不覺，卡在地上則會偵測附近的人類。\n還能透過保全門在地圖上移動；人類則可以用監視器觀察保全門並揭露你的位置。",
+        "power_icon": "assets/images/chara/killers/powers/Animatronic/Axe Throw.png",
+        "stats": [
+            3,
+            4,
+            2,
+            2,
+            4
+        ]
+    },
+    {
+        "id": "krasue",
+        "folder": "Krasue",
+        "name": "卡蘇 (The Krasue)",
+        "aliases": [
+            "飛頭",
+            "克拉蘇"
+        ],
+        "icon": "assets/images/chara/killers/Krasue.png",
+        "portrait": "assets/images/chara/killers/Krasue.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "無軀之肉 (Unbodied Flesh)",
+        "power_desc": "可以在兩種型態之間切換：身體型態較慢，能吐出會追蹤人類的寄生腺體；頭部型態移動更快、能飛越障礙，並用腸子鞭打被寄生的人類。\n寄生值累積滿的人類會越來越虛弱，最後陷入不治狀態。",
+        "power_icon": "assets/images/chara/killers/powers/Krasue/Head Form.png",
+        "stats": [
+            4,
+            3,
+            2,
+            2,
+            1
+        ]
+    },
+    {
+        "id": "first",
+        "folder": "First",
+        "name": "原初者 (The First)",
+        "aliases": [
+            "一號",
+            "威可納"
+        ],
+        "icon": "assets/images/chara/killers/T_UI_K42_TheFirst_Portrait.png",
+        "portrait": "assets/images/chara/killers/T_UI_K42_TheFirst_Portrait.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "實驗體 001 (Test Subject #001)",
+        "power_desc": "可以召喚藤蔓攻擊地面，讓人類累積代幣；也能進入「顛倒世界」，在裡面無法被察覺、移動更快，還能穿過木板、窗戶和牆壁，再從下方發動衝擊波回到現實。\n人類代幣累積夠多時，你的攻擊會直接造成傷害。",
+        "power_icon": "assets/images/chara/killers/powers/First/Enter Upside Down.png",
+        "stats": [
+            4,
+            3,
+            2,
+            3,
+            2
+        ]
+    },
+    {
+        "id": "slasher",
+        "folder": "Slasher",
+        "name": "殺人魔 (The Slasher)",
+        "aliases": [
+            "傑森"
+        ],
+        "icon": "assets/images/chara/killers/Slasher.png",
+        "portrait": "assets/images/chara/killers/Slasher.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "無所不在的邪惡 (Omnipresent Evil)",
+        "power_desc": "發動後隱形並高速移動，可以穿過木板、牆壁和窗戶，但無法攻擊，只能靠腳印感應人類（蹲下的人類感應不到）。\n之後可以從附近的木板、牆壁或窗戶跳出來突襲；也能投擲尖刺打傷人類。",
+        "power_icon": "assets/images/chara/killers/powers/Slasher/Omniprescent Evil.png",
+        "stats": [
+            5,
+            4,
+            3,
+            4,
+            3
+        ]
+    },
+    {
+        "id": "judgment",
+        "folder": "Judgment",
+        "name": "審判者 (The Judgment)",
+        "aliases": [
+            "天使"
+        ],
+        "icon": "assets/images/chara/killers/Judgment.png",
+        "portrait": "assets/images/chara/killers/Judgment.png",
+        "speed": "4.4 m/s",
+        "terror_radius": "32m",
+        "size": "高",
+        "power_name": "神之意志 (Will of the Gods)",
+        "power_desc": "可以操控前方的神聖光柱並向前投射，延遲後命中的人類會受傷並被標記為異端；差一點被打中的人類也會短暫暴露位置。\n把倒地的異端放逐後會進入狂熱模式，光柱變得更大、充能更快。",
+        "power_icon": "assets/images/chara/killers/powers/Judgment/Fire Ray.png",
+        "stats": [
+            5,
+            1,
+            4,
+            2,
+            1
+        ]
+    },
+    {
+        "id": "terrifier",
+        "folder": "Terrifier",
+        "name": "Terrifier",
+        "aliases": [],
+        "icon": "assets/images/chara/killers/Terrifier.png",
+        "portrait": "assets/images/chara/killers/Terrifier.png",
+        "speed": "4.6 m/s",
+        "terror_radius": "32m",
+        "size": "中",
+        "power_name": "玩具袋 (Bag of Toys)",
+        "power_desc": "打開袋子從兩個隨機玩具中挑一個使用：酸液瓶、火焰噴射器、手槍、連枷或腳踏車喇叭，每個都只能用一次。\n玩具打中健康的人類會讓他受到折磨，再被不同玩具打中就會倒地；同一種玩具用越多次會越致命。",
+        "power_icon": "assets/images/chara/killers/powers/Terrifier/Bag of Toys.png",
+        "stats": [
+            4,
+            2,
+            2,
+            3,
+            2
+        ]
+    }
+]
