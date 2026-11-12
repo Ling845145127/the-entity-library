@@ -1,10 +1,10 @@
 // =========================================
 // 每週手動更新這裡：秘密聖所的四個技能 id（對應 perks.json）
 // =========================================
-const shrinePerkIds = ['sprint-burst', 'dead-hard', 'corrupt-intervention', 'bbq-and-chili'];
+const shrinePerkIds = ['smash-hit', 'power-struggle', '殺手技能id', '殺手技能id'];
 
 // 新手入門第 4 張卡片：新手萬用配裝
-const beginnerBuildIds = ['corrupt-intervention', 'pain-resonance', 'bbq-and-chili', 'sloppy-butcher'];
+const beginnerBuildIds = ['corrupt-intervention', 'pain-resonance', 'alien-instinct', 'blood-warden'];
 
 // 抓取 DOM 元素
 const shrineGrid = document.getElementById('shrine-grid');

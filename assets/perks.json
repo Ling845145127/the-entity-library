@@ -30,6 +30,34 @@
         "synergies": []
     },
     {
+        "id": "smash-hit",
+        "name": "強檔專「擊」",
+        "name_en": "Smash Hit",
+        "aliases": [],
+        "role": "survivor",
+        "owner": "李允珍 (Yun-Jin Lee)",
+        "desc": "用木板砸暈殺手後，獲得短暫的衝刺加速，拉開與殺手的距離。使用後會陷入疲勞一段時間。",
+        "image": "assets/images/perks/survivors/Yun-Jin Lee/Smash Hit.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
+        "id": "power-struggle",
+        "name": "強力掙扎",
+        "name_en": "Power Struggle",
+        "aliases": [],
+        "role": "survivor",
+        "owner": "艾洛蒂·拉科托 (Élodie Rakoto)",
+        "desc": "被殺手扛著時，掙扎到一定進度後，可以把附近的木板放倒砸暈殺手，趁機掙脫。",
+        "image": "assets/images/perks/survivors/Elodie Rakoto/Power Struggle.png",
+        "tags": [
+            "追逐"
+        ],
+        "synergies": []
+    },
+    {
         "id": "haywire",
         "name": "失控",
         "name_en": "Haywire",
